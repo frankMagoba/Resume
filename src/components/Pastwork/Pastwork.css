@@ -1,0 +1,19 @@
+.lined .nav-link {
+    border: none;
+    color: #555;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .lined .nav-link:hover {
+    border: none;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .lined .nav-link.active {
+    background: none;
+    color: orange;
+    border-color:orange;
+  }
+  .p-work{
+      background-color: #fff;
+  }

@@ -1,0 +1,8 @@
+.skill-bars{
+    height: 7px;
+    background: #fff;
+    border: solid 1px rgb(136, 136, 136)
+}
+.skill-bars .progress-bar{
+    background: rgba(73, 73, 73, 0.6) !important;
+}

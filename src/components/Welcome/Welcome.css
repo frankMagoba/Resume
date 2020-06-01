@@ -1,0 +1,76 @@
+.intro {
+    height: 100vh;
+    background-color: #000000;
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.5)
+  ),url('https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    overflow: hidden;
+    filter: drop-shadow(0px 2px 0px rgba(244, 247, 249, 1));
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+    font-family: "Be Vietnam", sans-serif;
+  }
+  .intro .title-text {
+    background: #fff;
+    height: 100vh;
+    padding-top: 150px !important;
+    background: linear-gradient(rgba(251, 251, 251, 0.1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: rgb(245, 245, 245);
+  }
+  @media screen and (max-width: 768px) {
+    .intro .title-text {
+      font-size: 12px;
+    }
+    .intro h1 {
+      font-size: 20px;
+    }
+  }
+  .typewriter {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 3.5s steps(10, end), blink-caret 0.5s step-end;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 50%;
+    }
+    to {
+      width: 60%;
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  
+  .fa-arrow-circle-down {
+    bottom: 0;
+    color: red;
+  }
+  .rank-label-container {
+    margin-top: -19px;
+    text-align: center;
+  }
+  
+  .rank-label {
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+  }
+  .about-info {
+    padding: 4%;
+  }
+  

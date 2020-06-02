@@ -91,21 +91,6 @@ class Cv extends React.Component {
           </h6>
           <div className="container-fluid row">
             <div className="col-6 p-1">
-              Non-Technical Skills
-              <hr className="normal-hr-2"></hr>
-              <ul className="pl-4">
-                <li>Good communication skills</li>
-                <li>Effective team player and leader</li>
-                <li>Prompt action on feedback & attention to detail</li>
-                <li>Emotional intelligence</li>
-                <li>Cognitive flexibility</li>
-                <li>Administration</li>
-                <li>People management</li>
-                <li>Service orientation</li>
-                <li>Presentation and coordination</li>
-              </ul>
-            </div>
-            <div className="col-6 p-1">
               Professional skills
               <hr className="normal-hr-2"></hr>
               Angular, React, Vue
@@ -218,6 +203,21 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
+            </div>
+            <div className="col-6 p-1">
+              Non-Technical Skills
+              <hr className="normal-hr-2"></hr>
+              <ul className="pl-4">
+                <li>Good communication skills</li>
+                <li>Effective team player and leader</li>
+                <li>Prompt action on feedback & attention to detail</li>
+                <li>Emotional intelligence</li>
+                <li>Cognitive flexibility</li>
+                <li>Administration</li>
+                <li>People management</li>
+                <li>Service orientation</li>
+                <li>Presentation and coordination</li>
+              </ul>
             </div>
           </div>
           <hr></hr>

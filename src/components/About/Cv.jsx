@@ -272,169 +272,52 @@ class Cv extends React.Component {
             <h6>
               <b>Work Experience</b>
             </h6>
-            <b>Freelance Software Engineer at StudyPool</b>
+            <b>
+              Information Technology and Administration Intern, County
+              Government of Busia
+            </b>
             <br></br>
-            <label className="text-muted">February 2017 - September 2018</label>
+            <label className="text-muted">May 2017 - September 2017</label>
             <br></br>
             <p className="pl-2 text-mute">
-              I was a remote software developer at{" "}
-              <a
-                href="https://www.studypool.com/TutorPec/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none" }}
-              >
-                Studypool
-              </a>{" "}
-              helping clients develop diverse in-house software solutions.
-              <br></br>
-              <strong className="text-muted">Projects accomplished</strong>
-              <ul className="ml-4">
+              Responsible for providing exemplary IT and administrative support
+              to all staff in the office of the governor. Thisinvolved planning,
+              organization, coordination and commitment as I had to meet
+              targets, fairly balance tasks and effectively communicate to other
+              staff members. Successfully streamlined administrative tasks and
+              IT support by introducing query login procedures. Other duties
+              included:
+              <ul>
                 <li>
-                  C# Hospital management App -{" "}
-                  <a
-                    href="https://github.com/dev-jey/c-sharp-hospital-console-app.git"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <i className="fa fa-github"></i>
-                  </a>
+                  Preparing and mailing periodic internal memos to all staff
                 </li>
+                <li>Updating county communication on county website</li>
                 <li>
-                  Car hire system (PHP, HTML, MySQL) -{" "}
-                  <a
-                    href="
-                https://github.com/dev-jey/Car-hire-system"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <i className="fa fa-github"></i>
-                  </a>
-                </li>
-                <li>
-                  Member Registration Sys (Flask-Restful) -{" "}
-                  <a
-                    href="
-                https://github.com/dev-jey/Signup-system-flask.git"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <i className="fa fa-github"></i>
-                  </a>
-                </li>
-                <li>
-                  POS system (Java) -{" "}
-                  <a
-                    href="
-                https://github.com/dev-jey/java-store-management-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <i className="fa fa-github"></i>
-                  </a>
-                </li>
-                <li>
-                  Hadoop Algorithm (Map-Reduce) -{" "}
-                  <a
-                    href="
-                https://github.com/dev-jey/hadoop-algorithm"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <i className="fa fa-github"></i>
-                  </a>
+                  Filing documents of vendor and client origin and ensuring
+                  their safe custody
                 </li>
               </ul>
-            </p>
-            <b>Software Engineer at Andela, Nairobi</b>
-            <br></br>
-            <label className="text-muted">
-              September 2018 - September 2019
-            </label>
-            <br></br>
-            <i className="p-2" style={{ fontSize: "11px" }}>
-              January 2019 - April 2019
-            </i>
-            <p className="pl-2 text-mute">
-              I was part of a team that worked on a product called
-              <a
-                href="https://indiana-ah-frontend.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none" }}
-              >
-                {" "}
-                Authors Haven
-              </a>
-              . This is a social platform that allows writers/article authors to
-              express themselves and be sure to reach out to their target
-              audience. The stacks used are Python Django (DRF) for the back-end
-              and React-Redux for the front-end.
             </p>
             <hr className="normal-hr-2"></hr>
-            <i className="p-2" style={{ fontSize: "11px" }}>
-              May 2019 - Sep 2019
-            </i>
-            <p className="pl-2 text-mute">
-              I was also part of a full-stack development team that worked on a
-              product called
-              <a
-                href="https://tembea.andela.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none" }}
-              >
-                {" "}
-                Tembea.{" "}
-              </a>
-              This project was aimed at managing Andela's travel and transfers.
-              <br></br>
-              Stacks: Angular, NodeJS <br></br>
-              Achievements:<br></br>
-              <ul className="pl-4">
-                <li>
-                  The product ensures that employees can get cab services,
-                  airport transfers and other travel functions with ease. It
-                  also has reduced the amount of money spent by the company on
-                  transport by more than 10%.
-                </li>
-                <li>
-                  I was an active member of the team contributing to the
-                  codebase for 3 months. During this period, Tembea managed to
-                  increase the efficiency of local travel activities in the
-                  company.
-                </li>
-                <li>
-                  I was also a Technical coordinator for the team for a month.
-                  The team output during this period increased by a large
-                  margin.
-                </li>
-              </ul>
-            </p>
           </div>
         </div>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <hr></hr>
           <b>Software Engineer at Medbook Africa, Nairobi</b>
           <br></br>
-          <label className="text-muted">October 2019 - Current</label>
+          <label className="text-muted">May 2019 - Current</label>
           <br></br>
           <p className="pl-2 text-mute">
             I am part of a frontend development team that is working on a
             product called
             <a
-              href="https://mediclaim.medbookafrica.com/"
+              href="https://medihealth.medbookafrica.com/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
             >
               {" "}
-              Mediclaim.{" "}
+              Medihealth.{" "}
             </a>
             This is a health management system that involves the processing of
             insurance claims, authorizations, and handling customer requests.
@@ -455,11 +338,8 @@ class Cv extends React.Component {
           Bachelor of Science in Computer Science, Multimedia University of
           Kenya, Nairobi
           <br></br>
-          <label className="text-muted">September 2015 - April 2020</label>
-          <p className="pl-2 text-mute">
-            This course has helped to build my understanding of a wide range of
-            software, and technological ICT skills required by the industry
-          </p>
+          <label className="text-muted">September 2015 - April 2019</label>
+          <p className="pl-2 text-mute">2nd Class Honours, Upper Division.</p>
         </div>
 
         <hr></hr>
@@ -476,17 +356,24 @@ class Cv extends React.Component {
             <b>References</b>
           </h6>
           <div className="container row">
-            <div className="col-6 text-mute">
-              Frank Magoba<br></br>
-              Software Engineer, Medbook Africa<br></br>
-              franklinmagoba4@gmail.com<br></br>
-              +254725254911
+            <div className="col-4 text-mute">
+              Dr. Boniface Ngari<br></br>
+              Lecturer, Faculty of Computing, Multimedia University of Kenya.
+              <br></br>
+              binireri2030@gmail.com<br></br>
+              +254 725 347734
             </div>
-            <div className="col-6 text-mute">
-              Hesbon Maiyo<br></br>
-              Software Engineer, Andela<br></br>
-              hesbonkiptoo1996@gmail.com<br></br>
-              +254727737299
+            <div className="col-4 text-mute">
+              Mr. Anand Singh<br></br>
+              The General Manager, Medbook Limited.<br></br>
+              anand.singh@medbookafrica.com<br></br>
+              +91 90350 70838{" "}
+            </div>
+            <div className="col-4 text-mute">
+              Mr. Antony Wandera<br></br>
+              Director, Namsala Support Services<br></br>
+              antony.wandera@namsala.co.ke<br></br>
+              +254 734 663817{" "}
             </div>
           </div>
         </div>

@@ -119,6 +119,28 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
+              Laravel, Flutter
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "75%" }}
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Tensorflow
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "60%" }}
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
               Azure
               <div class="progress" style={{ height: "6px" }}>
                 <div
@@ -141,6 +163,28 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
+              Javascript, Java, C++, PHP, Python
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "95%" }}
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              C, Dart, Haskell
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "70%" }}
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
               MySQL, Firebase
               <div class="progress" style={{ height: "6px" }}>
                 <div
@@ -159,39 +203,6 @@ class Cv extends React.Component {
                   role="progressbar"
                   style={{ width: "75%" }}
                   aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              Laravel
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "75%" }}
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              Flutter, Yesod
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "70%" }}
-                  aria-valuenow="70"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              Tensorflow
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "60%" }}
-                  aria-valuenow="60"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>

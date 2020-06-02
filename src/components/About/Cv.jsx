@@ -73,9 +73,11 @@ class Cv extends React.Component {
             <b>Profile</b>
           </h6>
           <p className="p-2 text-mute">
-            I am a passionate software developer with over 3 years of experience
-            in the field. My main stack is python and I have immense experience
-            working with Django and Flask too. Throughout my time as a software
+            A Computer Engineer with demonstrated history in goal-achievement,
+            leadership, team play and efficiency. Aiming to promote social
+            development, business and technology by fostering a culture of
+            innovation, professionalism and integrity in performing designated
+            mandate. Throughout my 4 year experience time as a software
             developer, I have worked with different teams to create applications
             that optimized systems, saved on cost, and improved users'
             experience.

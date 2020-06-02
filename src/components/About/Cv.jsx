@@ -108,18 +108,7 @@ class Cv extends React.Component {
             <div className="col-6 p-1">
               Professional skills
               <hr className="normal-hr-2"></hr>
-              Angular
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "99%" }}
-                  aria-valuenow="99"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              React
+              Angular, React, Vue
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"
@@ -185,7 +174,7 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              Flutter
+              Flutter, Yesod
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"

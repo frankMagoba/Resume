@@ -163,7 +163,7 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              Javascript, Java, C++, PHP, Python
+              Javascript, PHP, Python
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"
@@ -174,7 +174,18 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              C, Dart, Haskell
+              Dart, Java, C++
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "70%" }}
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              C, Haskell
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"

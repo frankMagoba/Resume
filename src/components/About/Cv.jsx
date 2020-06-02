@@ -130,6 +130,17 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
+              HTML, CSS, SCSS, SASS
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "99%" }}
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
               MySQL, Firebase
               <div class="progress" style={{ height: "6px" }}>
                 <div
@@ -190,35 +201,36 @@ class Cv extends React.Component {
           <hr></hr>
           <h6>
             <b>
-              My Projects<br></br>
+              Projects<br></br>
             </b>
           </h6>
           <div className="row">
             <div className="col-md-6">
-              <b>Fadhila Network </b>
+              <b>Medihealth </b>
               <div style={{ fontSize: "15.5px" }}>
-                A charity organization aimed at modernizing and improving how
-                people help one another.<br></br>
+                Responsible for designing the entire admin frontend of the
+                medihealth application used by 100+ clinics across the country
+                for patients and doctors.<br></br>
                 <a
-                  href="https://fadhila.herokuapp.com"
+                  href="https://medihealth.medbookafrica.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  fadhila.herokuapp.com
+                  https://medihealth.medbookafrica.com
                 </a>
               </div>
             </div>
             <div className="col-md-6">
-              <b>Tembea</b>
+              <b>Mediclaim</b>
               <div style={{ fontSize: "15.5px" }}>
-                An application aimed at managing cabs and other travel needs at
-                Andela.<br></br>
+                Responsible for the frontend of the medical insurance claiming
+                system being used by 100+ clinics across the country.<br></br>
                 <a
-                  href="https://tembea.andela.com"
+                  href="https://mediclaim.medbookafrica.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  tembea.andela.com
+                  https://mediclaim.medbookafrica.com/
                 </a>
               </div>
             </div>
@@ -226,30 +238,31 @@ class Cv extends React.Component {
           <br></br>
           <div className="row">
             <div className="col-md-6">
-              <b>Corona Count </b>
+              <b>Snack Store Prototype </b>
               <div style={{ fontSize: "15.5px" }}>
-                A platform whereby one can access real-time information with
-                regards to the spread of corona virus.<br></br>
+                A prototype for platform food products can be delivered to a
+                wide market by customers ordering via mobile phones.<br></br>
                 <a
-                  href="https://coronacount.netlify.com"
+                  href="https://still-tundra-08708.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  coronacount.netlify.com
+                  https://still-tundra-08708.herokuapp.com/
                 </a>
               </div>
             </div>
             <div className="col-md-6">
-              <b>Authors Haven</b>
+              <b>Credit Card Transaction Classifier</b>
               <div style={{ fontSize: "15.5px" }}>
-                A platform whereby authors and article writers are able to
-                express themselves.<br></br>
+                Final year data science college project that was involved in
+                creating a binary classifier to detect fraudulent credit card
+                transactions..<br></br>
                 <a
-                  href="https://indiana-ah-frontend.herokuapp.com"
+                  href="https://github.com/frankMagoba/Credit-Card-Transaction-Classifier"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  indiana-ah-frontend.herokuapp.com
+                  https://github.com/frankMagoba/Credit-Card-Transaction-Classifier
                 </a>
               </div>
             </div>

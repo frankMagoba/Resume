@@ -91,67 +91,30 @@ class Cv extends React.Component {
           </h6>
           <div className="container-fluid row">
             <div className="col-6 p-1">
-              Personal Attributes
+              Non-Technical Skills
               <hr className="normal-hr-2"></hr>
               <ul className="pl-4">
                 <li>Good communication skills</li>
                 <li>Effective team player and leader</li>
                 <li>Prompt action on feedback & attention to detail</li>
-              </ul>
-              Other Skills
-              <hr className="normal-hr-2"></hr>
-              <ul className="pl-4">
-                <li>CI/CD</li>
-                <li>Patterns (MVC), Rest APIs and GraphQL.</li>
-                <li>Testing & linting</li>
-                <li>UI/UX design with Figma</li>
-                <li>Data scraping, analysis and visualization</li>
+                <li>Emotional intelligence</li>
+                <li>Cognitive flexibility</li>
+                <li>Administration</li>
+                <li>People management</li>
+                <li>Service orientation</li>
+                <li>Presentation and coordination</li>
               </ul>
             </div>
             <div className="col-6 p-1">
               Professional skills
               <hr className="normal-hr-2"></hr>
-              Flask
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "95%" }}
-                  aria-valuenow="95"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              Django
+              Angular
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"
                   role="progressbar"
                   style={{ width: "99%" }}
                   aria-valuenow="99"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              Data science(bs4, selenium, pandas, numpy, matplotlib, scikit
-              learn)
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "86%" }}
-                  aria-valuenow="86"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              NodeJS
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "98%" }}
-                  aria-valuenow="98"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -167,24 +130,57 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              HTML/CSS/Sass
-              <div class="progress" style={{ height: "6px" }}>
-                <div
-                  class="progress-bar bg-dark"
-                  role="progressbar"
-                  style={{ width: "100%" }}
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-              PostgreSQL, MySQL, MongoDB
+              MySQL, Firebase
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"
                   role="progressbar"
                   style={{ width: "90%" }}
                   aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              PostgreSQL, MongoDB
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "75%" }}
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Laravel
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "75%" }}
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Flutter
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "70%" }}
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Tensorflow
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "60%" }}
+                  aria-valuenow="60"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>

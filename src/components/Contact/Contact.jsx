@@ -15,7 +15,7 @@ export class Contact extends Component {
               <div className="row">
                 <div className="text-muted col-md-4 text-left mt-5">
                   <i class="fas fa-phone fa-sm"></i>&nbsp;Mobile No:
-                  ++254725254911<br></br>
+                  +254725254911<br></br>
                   <i class="far fa-envelope fa-sm"></i>&nbsp;Email:
                   franklinmagoba4@gmail.com
                 </div>
@@ -80,7 +80,9 @@ export class Contact extends Component {
         <br></br>
         <br></br>
         <br></br>
-        <div className="text-center text-muted">&copy; 2020. Franklin Magoba</div>
+        <div className="text-center text-muted">
+          &copy; 2020. Franklin Magoba
+        </div>
         <br></br>
       </section>
     );

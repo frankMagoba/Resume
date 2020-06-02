@@ -190,8 +190,8 @@ class Cv extends React.Component {
                 <div
                   class="progress-bar bg-dark"
                   role="progressbar"
-                  style={{ width: "70%" }}
-                  aria-valuenow="70"
+                  style={{ width: "65%" }}
+                  aria-valuenow="65"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>

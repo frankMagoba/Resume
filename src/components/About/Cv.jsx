@@ -130,6 +130,17 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
+              Azure
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "99%" }}
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
               HTML, CSS, SCSS, SASS
               <div class="progress" style={{ height: "6px" }}>
                 <div

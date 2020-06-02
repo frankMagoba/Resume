@@ -119,7 +119,7 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              Laravel, Flutter
+              Laravel, Flutter, Node
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"

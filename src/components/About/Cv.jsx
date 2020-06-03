@@ -320,7 +320,6 @@ class Cv extends React.Component {
                 </li>
               </ul>
             </p>
-            <hr className="normal-hr-2"></hr>
           </div>
         </div>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>

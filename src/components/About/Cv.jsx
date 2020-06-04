@@ -42,7 +42,7 @@ class Cv extends React.Component {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/franklin-magoba-9b5598100//"
+              href="https://www.linkedin.com/in/franklin-magoba-9b5598100/"
               target="_blank"
               rel="noopener noreferrer"
             >

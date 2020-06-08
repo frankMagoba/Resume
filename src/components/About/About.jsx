@@ -72,7 +72,7 @@ export class About extends Component {
             </PDFExport>
           </div>
           <div className="col-md-5 mx-auto">
-            <h2 className="title col-md-4">Certificates</h2>
+            <h2 className="title col-md-4">Certifications</h2>
             <img
               src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png"
               alt=""

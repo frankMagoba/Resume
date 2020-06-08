@@ -7,6 +7,7 @@ import certReact from "./react.png";
 import certAgile from "./agile.png";
 import certNode from "./node.png";
 import certData from "./databases.png";
+import certCloud from "./cloudintro.png";
 
 function demoAsyncCall() {
   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
@@ -86,6 +87,8 @@ export class About extends Component {
             <img src={certNode} alt="" width="100%" />
             <hr className="normal-hr-2"></hr>
             <img src={certData} alt="" width="100%" />
+            <hr className="normal-hr-2"></hr>
+            <img src={certCloud} alt="" width="100%" />
           </div>
         </div>
       </section>

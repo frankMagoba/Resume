@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import Cv from "./Cv";
 import { PDFExport } from "@progress/kendo-react-pdf";
 import ReactGA from "react-ga";
-
 import Loader from "../Loader/Loader";
+import certReact from "./react.png";
+import certAgile from "./agile.png";
+import certNode from "./node.png";
+import certData from "./databases.png";
 
 function demoAsyncCall() {
   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
@@ -11,6 +14,8 @@ function demoAsyncCall() {
 export class About extends Component {
   state = {
     loading: true,
+    numPages: null,
+    pageNumber: 1,
   };
 
   exportPDFWithComponent = () => {
@@ -26,7 +31,7 @@ export class About extends Component {
   }
 
   render() {
-    const { loading } = this.state;
+    const { loading, pageNumber, numPages } = this.state;
     if (loading) {
       return <Loader />;
     }
@@ -67,12 +72,20 @@ export class About extends Component {
             </PDFExport>
           </div>
           <div className="col-md-5 mx-auto">
+            <h2 className="title col-md-4">Certificates</h2>
             <img
               src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png"
               alt=""
               width="100%"
-              style={{ paddingTop: "3%", top: "0", position: "sticky" }}
+              // style={{ paddingTop: "3%", top: "0", position: "sticky" }}
             />
+            <img src={certReact} alt="" width="100%" />
+            <hr className="normal-hr-2"></hr>
+            <img src={certAgile} alt="" width="100%" />
+            <hr className="normal-hr-2"></hr>
+            <img src={certNode} alt="" width="100%" />
+            <hr className="normal-hr-2"></hr>
+            <img src={certData} alt="" width="100%" />
           </div>
         </div>
       </section>

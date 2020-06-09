@@ -9,6 +9,7 @@ import certNode from "./Certificates/node.png";
 import certData from "./Certificates/databases.png";
 import certCloud from "./Certificates/cloudintro.png";
 import certCloudcore from "./Certificates/cloudcore.png";
+import certCloudtool from "./Certificates/azuretools.png";
 
 function demoAsyncCall() {
   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
@@ -92,6 +93,8 @@ export class About extends Component {
             <img src={certCloud} alt="" width="100%" />
             <hr className="normal-hr-2"></hr>
             <img src={certCloudcore} alt="" width="100%" />
+            <hr className="normal-hr-2"></hr>
+            <img src={certCloudtool} alt="" width="100%" />
           </div>
         </div>
       </section>

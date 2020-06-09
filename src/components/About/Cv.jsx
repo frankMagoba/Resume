@@ -91,9 +91,9 @@ class Cv extends React.Component {
           </h6>
           <div className="container-fluid row">
             <div className="col-6 p-1">
-              Professional skills
+              <i>Professional skills</i>
               <hr className="normal-hr-2"></hr>
-              Angular, React, Vue, JQuery, MVC
+              Angular, React, Vue, JQuery
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"
@@ -126,7 +126,7 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              Azure
+              Azure, C# and .NET, MVC
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"
@@ -205,7 +205,7 @@ class Cv extends React.Component {
               </div>
             </div>
             <div className="col-6 p-1">
-              Non-Technical Skills
+              <i>Non-Technical Skills</i>
               <hr className="normal-hr-2"></hr>
               <ul className="pl-4">
                 <li>Good communication skills</li>

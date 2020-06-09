@@ -3,11 +3,11 @@ import Cv from "./Cv";
 import { PDFExport } from "@progress/kendo-react-pdf";
 import ReactGA from "react-ga";
 import Loader from "../Loader/Loader";
-import certReact from "./react.png";
-import certAgile from "./agile.png";
-import certNode from "./node.png";
-import certData from "./databases.png";
-import certCloud from "./cloudintro.png";
+import certReact from "./Certificates/react.png";
+import certAgile from "./Certificates/agile.png";
+import certNode from "./Certificates/node.png";
+import certData from "./Certificates/databases.png";
+import certCloud from "./Certificates/cloudintro.png";
 
 function demoAsyncCall() {
   return new Promise((resolve) => setTimeout(() => resolve(), 1500));

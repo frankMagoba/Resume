@@ -90,7 +90,7 @@ export class About extends Component {
               </div>
               <div className="col-md-6">
                 {" "}
-                <img src={certAgile} alt="" width="100%" />
+                <img src={certNet} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
             </div>
@@ -123,7 +123,7 @@ export class About extends Component {
               </div>
               <div className="col-md-6">
                 {" "}
-                <img src={certNet} alt="" width="100%" />
+                <img src={certAgile} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
             </div>

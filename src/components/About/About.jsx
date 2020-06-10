@@ -11,6 +11,8 @@ import certCloud from "./Certificates/cloudintro.png";
 import certCloudcore from "./Certificates/cloudcore.png";
 import certCloudtool from "./Certificates/azuretools.png";
 import certNet from "./Certificates/net.png";
+import certAzuese1 from "./Certificates/azuese2.png";
+import certAzuese2 from "./Certificates/azuese1.png";
 
 function demoAsyncCall() {
   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
@@ -124,6 +126,17 @@ export class About extends Component {
               <div className="col-md-6">
                 {" "}
                 <img src={certAgile} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6">
+                <img src={certAzuese1} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+              <div className="col-md-6">
+                {" "}
+                <img src={certAzuese2} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
             </div>

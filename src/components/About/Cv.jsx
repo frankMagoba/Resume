@@ -126,13 +126,13 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              Azure, C# and .NET, MVC
+              C# and .NET, MVC
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"
                   role="progressbar"
-                  style={{ width: "99%" }}
-                  aria-valuenow="99"
+                  style={{ width: "80%" }}
+                  aria-valuenow="80"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -199,6 +199,28 @@ class Cv extends React.Component {
                   role="progressbar"
                   style={{ width: "75%" }}
                   aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Azure, Git, Linux, Windows, HTTP Servers
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "90%" }}
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              Agile-Jira, Notion, Trello, Slack
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "90%" }}
+                  aria-valuenow="90"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>

@@ -10,6 +10,7 @@ import certData from "./Certificates/databases.png";
 import certCloud from "./Certificates/cloudintro.png";
 import certCloudcore from "./Certificates/cloudcore.png";
 import certCloudtool from "./Certificates/azuretools.png";
+import certNet from "./Certificates/net.png";
 
 function demoAsyncCall() {
   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
@@ -42,15 +43,15 @@ export class About extends Component {
       <section className="about-me container-fluid" id="about-me">
         <br></br>
         <div className="text-center">
-          <h2 style={{ textTransform: "uppercase" }}>Personal Info</h2>
+          <h2 style={{ textTransform: "uppercase" }}>Resume</h2>
           <hr className="normal-hr"></hr>
         </div>
         <br></br>
         <br></br>
         <div className="row">
-          <div className="card about-info col-md-6">
+          <div className="card about-info col-md-12">
             <div className="row">
-              <h2 className="title col-md-4">Details</h2>
+              <h2 className="title col-md-2">Details</h2>
               <button
                 className="btn btn-warning col-md-4 d-block ml-auto mt-3"
                 onClick={this.exportPDFWithComponent}
@@ -74,7 +75,7 @@ export class About extends Component {
               <Cv />
             </PDFExport>
           </div>
-          <div className="col-md-5 mx-auto">
+          <div className="col-md-8 mx-auto">
             <h2 className="title col-md-4">Certifications</h2>
             <img
               src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png"
@@ -82,19 +83,50 @@ export class About extends Component {
               width="100%"
               // style={{ paddingTop: "3%", top: "0", position: "sticky" }}
             />
-            <img src={certReact} alt="" width="100%" />
-            <hr className="normal-hr-2"></hr>
-            <img src={certAgile} alt="" width="100%" />
-            <hr className="normal-hr-2"></hr>
-            <img src={certNode} alt="" width="100%" />
-            <hr className="normal-hr-2"></hr>
-            <img src={certData} alt="" width="100%" />
-            <hr className="normal-hr-2"></hr>
-            <img src={certCloud} alt="" width="100%" />
-            <hr className="normal-hr-2"></hr>
-            <img src={certCloudcore} alt="" width="100%" />
-            <hr className="normal-hr-2"></hr>
-            <img src={certCloudtool} alt="" width="100%" />
+            <div className="row">
+              <div className="col-md-6">
+                <img src={certReact} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+              <div className="col-md-6">
+                {" "}
+                <img src={certAgile} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6">
+                <img src={certNode} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+              <div className="col-md-6">
+                {" "}
+                <img src={certData} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6">
+                <img src={certCloud} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+              <div className="col-md-6">
+                {" "}
+                <img src={certCloudcore} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6">
+                <img src={certCloudtool} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+              <div className="col-md-6">
+                {" "}
+                <img src={certNet} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+            </div>
           </div>
         </div>
       </section>

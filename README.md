@@ -1,5 +1,5 @@
 ## Description
-This is my personal website
+This is my portfolio website
 [Live](https://frank-lin.herokuapp.com/)
 
 

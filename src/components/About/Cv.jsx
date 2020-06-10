@@ -5,7 +5,7 @@ class Cv extends React.Component {
     return (
       <div className="p-4">
         <div className="text-center">
-          Franklin Magoba,
+          FRANKLIN MAGOBA,
           <label className="text-muted">&nbsp;&nbsp;Software Engineer</label>
           <br></br>
           Email: franklinmagoba4@gmail.com
@@ -115,7 +115,7 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              Tensorflow
+              Tensorflow, Numpy, Pandas
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"

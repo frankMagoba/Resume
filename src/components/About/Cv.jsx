@@ -181,7 +181,7 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
-              MySQL, Firebase, Microservices, API
+              MySQL, Firebase, Microservices, Rest APIs
               <div class="progress" style={{ height: "6px" }}>
                 <div
                   class="progress-bar bg-dark"

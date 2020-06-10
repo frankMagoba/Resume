@@ -356,11 +356,21 @@ class Cv extends React.Component {
           <h6>
             <b>Education</b>
           </h6>
-          Bachelor of Science in Computer Science, Multimedia University of
-          Kenya, Nairobi
+          <i>
+            Bachelor of Science in Computer Science, Multimedia University of
+            Kenya, Nairobi
+          </i>
           <br></br>
           <label className="text-muted">September 2015 - April 2019</label>
           <p className="pl-2 text-mute">2nd Class Honours, Upper Division.</p>
+          <i>K.C.S.E, Sigalame High School, Busia</i>
+          <br></br>
+          <label className="text-muted">February 2011 - November 2014</label>
+          <p className="pl-2 text-mute">A-, 80 Points.</p>
+          <i>K.C.P.E, Nambale Township, Busia</i>
+          <br></br>
+          <label className="text-muted">February 2003 - November 2010</label>
+          <p className="pl-2 text-mute">367 Marks.</p>
         </div>
 
         <hr></hr>

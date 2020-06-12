@@ -15,6 +15,8 @@ import certAzuese1 from "./Certificates/azuese2.png";
 import certAzuese2 from "./Certificates/azuese1.png";
 import certRest from "./Certificates/restapi.png";
 import certFullstack from "./Certificates/fullstack.png";
+import cloudCert from "./Certificates/coreCert.png";
+
 
 function demoAsyncCall() {
   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
@@ -111,7 +113,7 @@ export class About extends Component {
             </div>
             <div className="row">
               <div className="col-md-6">
-                <img src={certCloud} alt="" width="100%" />
+                <img src={cloudCert} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
               <div className="col-md-6">
@@ -122,12 +124,12 @@ export class About extends Component {
             </div>
             <div className="row">
               <div className="col-md-6">
-                <img src={certCloudtool} alt="" width="100%" />
+                <img src={certCloud} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
               <div className="col-md-6">
                 {" "}
-                <img src={certAgile} alt="" width="100%" />
+                <img src={certCloudtool} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
             </div>
@@ -152,6 +154,17 @@ export class About extends Component {
                 <img src={certData} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6">
+                <img src={certAgile} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div>
+              {/* <div className="col-md-6">
+                {" "}
+                <img src={certData} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
+              </div> */}
             </div>
           </div>
         </div>

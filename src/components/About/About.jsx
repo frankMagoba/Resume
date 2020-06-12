@@ -14,6 +14,7 @@ import certNet from "./Certificates/net.png";
 import certAzuese1 from "./Certificates/azuese2.png";
 import certAzuese2 from "./Certificates/azuese1.png";
 import certRest from "./Certificates/restapi.png";
+import certFullstack from "./Certificates/fullstack.png";
 
 function demoAsyncCall() {
   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
@@ -104,7 +105,7 @@ export class About extends Component {
               </div>
               <div className="col-md-6">
                 {" "}
-                <img src={certData} alt="" width="100%" />
+                <img src={certFullstack} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
             </div>
@@ -148,8 +149,8 @@ export class About extends Component {
               </div>
               <div className="col-md-6">
                 {" "}
-                {/* <img src={certAzuese2} alt="" width="100%" />
-                <hr className="normal-hr-2"></hr> */}
+                <img src={certData} alt="" width="100%" />
+                <hr className="normal-hr-2"></hr>
               </div>
             </div>
           </div>

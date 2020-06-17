@@ -18,6 +18,7 @@ import certFullstack from "./Certificates/fullstack.png";
 import cloudCert from "./Certificates/coreCert.png";
 import certAngular from "./Certificates/angular.png";
 import advCl from "./Certificates/advancedcloudconcept.png";
+import certDatasci from "./Certificates/datascience.png";
 
 
 function demoAsyncCall() {
@@ -173,11 +174,11 @@ export class About extends Component {
                 <img src={advCl} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
-              {/* <div className="col-md-6">
+              <div className="col-md-6">
                 {" "}
-                <img src={certFullstack} alt="" width="100%" />
+                <img src={certDatasci} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

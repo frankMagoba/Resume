@@ -301,7 +301,7 @@ class Cv extends React.Component {
               <div style={{ fontSize: "15.5px" }}>
                 Final year data science college project that was involved in
                 creating a binary classifier to detect fraudulent credit card
-                transactions..<br></br>
+                transactions.<br></br>
                 <a
                   href="https://github.com/frankMagoba/Credit-Card-Transaction-Classifier"
                   target="_blank"

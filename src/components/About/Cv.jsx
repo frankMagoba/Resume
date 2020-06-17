@@ -18,7 +18,8 @@ class Cv extends React.Component {
           <br></br>
           <div className="col-md-6 text-center mt-2 mx-auto">
             <a
-              href="http://lin.rf.gd/?i=2/"
+              // href="http://lin.rf.gd/?i=2/"
+              href="https://frankmagoba.github.io/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-dark"

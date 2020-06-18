@@ -44,7 +44,7 @@ export class About extends Component {
   }
 
   render() {
-    const images = [
+    const certificates = [
       certReact,
       certAngular,
       certNode,
@@ -120,7 +120,7 @@ export class About extends Component {
             />
             <div className="slide-container">
               <Zoom {...zoomOutProperties}>
-                {images.map((each, index) => (
+                {certificates.map((each, index) => (
                   <img key={index} style={{ width: "100%" }} src={each} />
                 ))}
               </Zoom>

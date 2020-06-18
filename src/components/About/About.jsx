@@ -19,7 +19,7 @@ import cloudCert from "./Certificates/coreCert.png";
 import certAngular from "./Certificates/angular.png";
 import advCl from "./Certificates/advancedcloudconcept.png";
 import certDatasci from "./Certificates/datascience.png";
-
+import { Slide, Zoom } from "react-slideshow-image";
 
 function demoAsyncCall() {
   return new Promise((resolve) => setTimeout(() => resolve(), 1500));
@@ -44,6 +44,32 @@ export class About extends Component {
   }
 
   render() {
+    const images = [
+      certReact,
+      certAngular,
+      certNode,
+      certNet,
+      certRest,
+      certData,
+      certAgile,
+      certFullstack,
+      certCloud,
+      certAzuese1,
+      certAzuese2,
+      cloudCert,
+      advCl,
+      certCloudtool,
+      certCloudcore,
+      certDatasci
+    ];
+    const zoomOutProperties = {
+      duration: 5000,
+      transitionDuration: 500,
+      infinite: true,
+      indicators: true,
+      scale: 0.4,
+      arrows: true,
+    };
     const { loading, pageNumber, numPages } = this.state;
     if (loading) {
       return <Loader />;
@@ -92,7 +118,14 @@ export class About extends Component {
               width="100%"
               // style={{ paddingTop: "3%", top: "0", position: "sticky" }}
             />
-            <div className="row">
+            <div className="slide-container">
+              <Zoom {...zoomOutProperties}>
+                {images.map((each, index) => (
+                  <img key={index} style={{ width: "100%" }} src={each} />
+                ))}
+              </Zoom>
+            </div>
+            {/* <div className="row">
               <div className="col-md-6">
                 <img src={certReact} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
@@ -113,8 +146,8 @@ export class About extends Component {
                 <img src={certNet} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
-            </div>
-            <div className="row">
+            </div> */}
+            {/* <div className="row">
               <div className="col-md-6">
                 <img src={cloudCert} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
@@ -179,7 +212,7 @@ export class About extends Component {
                 <img src={certDatasci} alt="" width="100%" />
                 <hr className="normal-hr-2"></hr>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

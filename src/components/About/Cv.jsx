@@ -260,8 +260,10 @@ class Cv extends React.Component {
                   href="https://medihealth.medbookafrica.com/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
                 >
-                  https://medihealth.medbookafrica.com
+                  {" "}
+                  View{" "}
                 </a>
               </div>
             </div>
@@ -274,8 +276,10 @@ class Cv extends React.Component {
                   href="https://mediclaim.medbookafrica.com/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
                 >
-                  https://mediclaim.medbookafrica.com/
+                  {" "}
+                  View{" "}
                 </a>
               </div>
             </div>
@@ -288,11 +292,13 @@ class Cv extends React.Component {
                 A prototype for platform food products can be delivered to a
                 wide market by customers ordering via mobile phones.<br></br>
                 <a
-                  href="https://still-tundra-08708.herokuapp.com/"
+                  href="https://still-tundra-08708.herokuapp.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
                 >
-                  https://still-tundra-08708.herokuapp.com/
+                  {" "}
+                  View{" "}
                 </a>
               </div>
             </div>
@@ -306,8 +312,10 @@ class Cv extends React.Component {
                   href="https://github.com/frankMagoba/Credit-Card-Transaction-Classifier"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
                 >
-                  https://github.com/frankMagoba/Credit-Card-Transaction-Classifier
+                  {" "}
+                  View{" "}
                 </a>
               </div>
             </div>
@@ -458,7 +466,7 @@ class Cv extends React.Component {
             </div>
             <div className="col-4 text-mute">
               Mr. Antony Wandera<br></br>
-              Director, Namsala Support Services<br></br>
+              Director, Shark Alliance Limited<br></br>
               antony.wandera@namsala.co.ke<br></br>
               +254 734 663817{" "}
             </div>

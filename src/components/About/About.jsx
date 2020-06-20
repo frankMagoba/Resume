@@ -60,7 +60,7 @@ export class About extends Component {
       advCl,
       certCloudtool,
       certCloudcore,
-      certDatasci
+      certDatasci,
     ];
     const zoomOutProperties = {
       duration: 5000,
@@ -78,15 +78,15 @@ export class About extends Component {
       <section className="about-me container-fluid" id="about-me">
         <br></br>
         <div className="text-center">
-          <h2 style={{ textTransform: "uppercase" }}>Resume</h2>
+          <h2 style={{ textTransform: "uppercase" }}>RESUME</h2>
           <hr className="normal-hr"></hr>
         </div>
         <br></br>
         <br></br>
         <div className="row">
-          <div className="card about-info col-md-12">
+          <div className="card about-info col-md-6">
             <div className="row">
-              <h2 className="title col-md-2">Details</h2>
+              <h2 className="title col-md-4">Details</h2>
               <button
                 className="btn btn-warning col-md-4 d-block ml-auto mt-3"
                 onClick={this.exportPDFWithComponent}
@@ -101,7 +101,7 @@ export class About extends Component {
               margin="1.5cm"
               forcePageBreak=".page-break"
               scale={0.7}
-              fileName="franklin_magoba_resume.pdf"
+              fileName="franklin_magoba.pdf"
               title=""
               subject=""
               keywords=""
@@ -110,13 +110,14 @@ export class About extends Component {
               <Cv />
             </PDFExport>
           </div>
-          <div className="col-md-8 mx-auto">
+          <div className="col-md-5 mx-auto">
             <h2 className="title col-md-4">Certifications</h2>
+
             <img
               src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png"
               alt=""
               width="100%"
-              // style={{ paddingTop: "3%", top: "0", position: "sticky" }}
+              style={{ paddingTop: "3%", top: "0", position: "sticky" }}
             />
             <div className="slide-container">
               <Zoom {...zoomOutProperties}>

@@ -74,7 +74,7 @@ class Cv extends React.Component {
             <b>Profile</b>
           </h6>
           <p className="p-2 text-mute">
-            A Sofware Engineer with demonstrated history in goal-achievement,
+            A Software Engineer with demonstrated history in goal-achievement,
             leadership, team play and efficiency. Aiming to promote social
             development, business and technology by fostering a culture of
             innovation, professionalism and integrity in performing designated

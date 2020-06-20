@@ -381,7 +381,7 @@ class Cv extends React.Component {
               {" "}
               Mediclaim{" "}
             </a>{" "}
-            which invloved designing Digital menu boards, mobile/desktop
+            which involved designing Digital menu boards, mobile/desktop
             business dashboards, online website plugins, and APIs. I was also
             responsible for managing my team's web infrastructure and website
             design. Most of the servers I dealt with were Debian/Ubuntu and I

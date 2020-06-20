@@ -349,11 +349,11 @@ class Cv extends React.Component {
           <hr></hr>
           <b>Software Engineer at Medbook Africa, Nairobi</b>
           <br></br>
-          <label className="text-muted">May 2019 - Current</label>
+          <label className="text-muted">May 2019 - May 2020</label>
           <br></br>
           <p className="pl-2 text-mute">
-            I am part of a frontend development team that is working on a
-            product called
+            I was working on PHP, Javascript (Angular and Laravel), and
+            applications. Some of my web apps included:{" "}
             <a
               href="https://medihealth.medbookafrica.com/"
               target="_blank"
@@ -361,16 +361,49 @@ class Cv extends React.Component {
               style={{ textDecoration: "none" }}
             >
               {" "}
-              Medihealth.{" "}
-            </a>
-            This is a health management system that involves the processing of
-            insurance claims, authorizations, and handling customer requests.
+              Medihealth{" "}
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://mediclaim.medbookafrica.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              {" "}
+              Mediclaim{" "}
+            </a>{" "}
+            which invloved designing Digital menu boards, mobile/desktop
+            business dashboards, online website plugins, and APIs. I was also
+            responsible for managing my team's web infrastructure and website
+            design. Most of the servers I dealt with were Debian/Ubuntu and I
+            utilized AWS for off-site hosting.
             <br></br>
             <strong className="text-muted">Stacks</strong>
             <ul className="ml-4">
               <li>Angular 8</li>
               <li>Php Laravel</li>
             </ul>
+          </p>
+        </div>
+
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Software Engineer at Shark Alliance Limited, Nairobi</b>
+          <br></br>
+          <label className="text-muted">June 2020 - Present</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            Responsible for developing, implementing, and maintaining mostly
+            internal web applications. I collaborated with technical and
+            business staff in the design, development, testing, implementation,
+            and production support of the company's enterprise application. We
+            primarily use MEAN Stack. 40% of my work was doing front end
+            development, 40% back end development and the remaining 20% was
+            dev-ops/sysadmin related tasks. I am occasionally asked to do things
+            such as migrating test database data between environments, doing
+            jenkins builds/minor build plan tweaks, configuring webpack/or
+            ui/unit testing frameworks.
           </p>
         </div>
 

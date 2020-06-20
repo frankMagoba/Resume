@@ -334,11 +334,11 @@ class Cv extends React.Component {
             <br></br>
             <p className="pl-2 text-mute">
               Responsible for providing exemplary IT and administrative support
-              to all staff in the office of the governor. Thisinvolved planning,
-              organization, coordination and commitment as I had to meet
-              targets, fairly balance tasks and effectively communicate to other
-              staff members. Successfully streamlined administrative tasks and
-              IT support by introducing query login procedures. Other duties
+              to all staff in the office of the governor. This involved
+              planning, organization, coordination and commitment as I had to
+              meet targets, fairly balance tasks and effectively communicate to
+              other staff members. Successfully streamlined administrative tasks
+              and IT support by introducing query login procedures. Other duties
               included:
               <ul>
                 <li>

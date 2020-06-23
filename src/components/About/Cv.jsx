@@ -10,7 +10,7 @@ class Cv extends React.Component {
           <br></br>
           Email: franklinmagoba4@gmail.com
           <br></br>
-          Mobile No. +254725254911
+          Mobile No. +254 725 254 911
           <br></br>
           Languages: English, Kiswahili
           <br></br>
@@ -360,7 +360,7 @@ class Cv extends React.Component {
           <label className="text-muted">May 2019 - May 2020</label>
           <br></br>
           <p className="pl-2 text-mute">
-            I was working on PHP, Javascript (Angular and Laravel), and
+            I was working on Javascript, PHP (Angular and Laravel), and
             applications. Some of my web apps included:{" "}
             <a
               href="https://medihealth.medbookafrica.com/"

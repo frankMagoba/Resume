@@ -110,7 +110,7 @@ export class About extends Component {
               <Cv />
             </PDFExport>
           </div>
-          <div className="col-md-5 mx-auto">
+          <div className="col-md-5">
             <h2 className="title col-md-4">Certifications</h2>
 
             <img

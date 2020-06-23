@@ -71,7 +71,7 @@ class Cv extends React.Component {
 
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <h6>
-            <b>Profile</b>
+            <b style={{ color: "green" }}>Profile</b>
           </h6>
           <p className="p-2 text-mute">
             A Software Engineer with demonstrated history in goal-achievement,
@@ -88,7 +88,7 @@ class Cv extends React.Component {
 
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <h6>
-            <b>Skills</b>
+            <b style={{ color: "green" }}>Skills</b>
           </h6>
           <div className="container-fluid row">
             <div className="col-6 p-1">
@@ -220,8 +220,8 @@ class Cv extends React.Component {
                 <div
                   class="progress-bar bg-dark"
                   role="progressbar"
-                  style={{ width: "90%" }}
-                  aria-valuenow="90"
+                  style={{ width: "100%" }}
+                  aria-valuenow="100"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -245,7 +245,7 @@ class Cv extends React.Component {
           </div>
           <hr></hr>
           <h6>
-            <b>
+            <b style={{ color: "green" }}>
               Projects<br></br>
             </b>
           </h6>
@@ -323,7 +323,7 @@ class Cv extends React.Component {
           <div className="text-left text-sm page-break">
             <hr></hr>
             <h6>
-              <b>Work Experience</b>
+              <b style={{ color: "green" }}>Work Experience</b>
             </h6>
             <b>
               Information Technology and Administration Intern, County
@@ -418,7 +418,7 @@ class Cv extends React.Component {
         <hr></hr>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <h6>
-            <b>Education</b>
+            <b style={{ color: "green" }}>Education</b>
           </h6>
           <i>
             Bachelor of Science in Computer Science, Multimedia University of
@@ -440,7 +440,7 @@ class Cv extends React.Component {
         <hr></hr>
         <div className="text-left text-sm">
           <h6>
-            <b>Hobbies</b>
+            <b style={{ color: "green" }}>Hobbies</b>
           </h6>
           <p className="pl-2 text-mute">Travelling, Camping, and Hiking</p>
         </div>
@@ -448,7 +448,7 @@ class Cv extends React.Component {
         <hr></hr>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <h6>
-            <b>References</b>
+            <b style={{ color: "green" }}>References</b>
           </h6>
           <div className="container row">
             <div className="col-4 text-mute">

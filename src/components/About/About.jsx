@@ -21,6 +21,7 @@ import advCl from "./Certificates/advancedcloudconcept.png";
 import certDatasci from "./Certificates/datascience.png";
 import certAzuredir from "./Certificates/azureactivedir.png";
 import certA900 from "./Certificates/az900exam.png";
+import openCv from "./Certificates/OpenCV.png";
 import { Slide, Zoom } from "react-slideshow-image";
 
 function demoAsyncCall() {
@@ -64,10 +65,11 @@ export class About extends Component {
       certCloudcore,
       certDatasci,
       certAzuredir,
-      certA900
+      certA900,
+      openCv
     ];
     const zoomOutProperties = {
-      duration: 5000,
+      duration: 2500,
       transitionDuration: 500,
       infinite: true,
       indicators: true,

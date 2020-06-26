@@ -75,13 +75,13 @@ class Cv extends React.Component {
           </h6>
           <p className="p-2 text-mute">
             A Software Engineer with demonstrated history in goal-achievement,
-            leadership, team play and efficiency. Aiming to promote social
-            development, business and technology by fostering a culture of
-            innovation, professionalism and integrity in performing designated
-            mandate. Throughout my 4 year experience time as a software
-            developer, I have worked with different teams to create applications
-            that optimized systems, saved on cost, and improved users'
-            experience.
+            leadership, team play and efficiency. Highly technical yet business
+            oriented, with hands-on experience, knowledge and skills in IT
+            Strategy, Delivery and Operations combined with expertise in Agile
+            leadership and project management. Throughout my 4 year experience
+            time as a software developer, I have worked with different teams to
+            create applications that optimized systems, saved on cost, and
+            improved users' experience.
           </p>
         </div>
         <hr></hr>

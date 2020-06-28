@@ -23,6 +23,7 @@ import certAzuredir from "./Certificates/azureactivedir.png";
 import certA900 from "./Certificates/az900exam.png";
 import openCv from "./Certificates/OpenCV.png";
 import cloudSol from "./Certificates/MicrosoftCloudSolution.png";
+import azactdir from "./Certificates/Azure_ ActiveDirectory.png";
 import { Slide, Zoom } from "react-slideshow-image";
 
 function demoAsyncCall() {
@@ -68,7 +69,8 @@ export class About extends Component {
       certAzuredir,
       certA900,
       openCv,
-      cloudSol
+      cloudSol,
+      azactdir
     ];
     const zoomOutProperties = {
       duration: 2500,

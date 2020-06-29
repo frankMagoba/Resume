@@ -25,6 +25,7 @@ import openCv from "./Certificates/OpenCV.png";
 import cloudSol from "./Certificates/MicrosoftCloudSolution.png";
 import azactdir from "./Certificates/Azure_ ActiveDirectory.png";
 import sec from "./Certificates/security.png";
+import storage from "./Certificates/storage.png";
 
 import { Slide, Zoom } from "react-slideshow-image";
 
@@ -73,7 +74,8 @@ export class About extends Component {
       openCv,
       cloudSol,
       azactdir,
-      sec
+      sec,
+      storage
     ];
     const zoomOutProperties = {
       duration: 2500,

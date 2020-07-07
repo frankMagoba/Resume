@@ -438,6 +438,27 @@ class Cv extends React.Component {
         </div>
 
         <hr></hr>
+
+        <hr></hr>
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <h6>
+            <b style={{ color: "green" }}>Bootcamps and Training</b>
+          </h6>
+          <i>ALCwithMicrosoft Azure Training</i>
+          <br></br>
+          <label className="text-muted">June 2020</label>
+          <p className="pl-2 text-mute">
+            Microsoft Azure fundamentals certification.
+          </p>
+          <br></br>
+          <i>Google Africa Developer Scholarship</i>
+          <br></br>
+          <label className="text-muted">June 2020</label>
+          <p className="pl-2 text-mute">Web and Mobile developer Specialist.</p>
+          <br></br>
+        </div>
+
+        <hr></hr>
         <div className="text-left text-sm">
           <h6>
             <b style={{ color: "green" }}>Hobbies</b>

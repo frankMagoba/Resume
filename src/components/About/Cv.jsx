@@ -417,6 +417,45 @@ class Cv extends React.Component {
 
         <hr></hr>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Software Engineer at StartappzKE Limited, Nairobi</b>
+          <br></br>
+          <label className="text-muted">July 2020 - Present</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            The project's goal is to build a high performance and smooth
+            applications which is easier to update client side and maintain it.
+            We use flutter, we try hard to improve the user experience which
+            makes using the hybrid app has the same experience with using an
+            native app. My tasks mainly involve:
+            <ul>
+              <li>
+                Set up front-end structures and choose the suitable techs for
+                the project.
+              </li>
+              <li>
+                Interview candidates that apply for the front-end position.{" "}
+              </li>
+              <li>
+                Offer technical advices and solutions for other teams such as
+                Design and BA.
+              </li>
+              <li>
+                Using Flutter, Websocket and relative techs to build the web
+                view part in the app{" "}
+              </li>
+              <li>
+                Improve user experience through technical way such like reducing
+                code base, reducing http requests, and compatibility with each
+                platform.
+              </li>
+              <li>Build reusable and maintainable widgets based on flutter.</li>
+            </ul>
+          </p>
+        </div>
+
+        <hr></hr>
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <h6>
             <b style={{ color: "green" }}>Education</b>
           </h6>

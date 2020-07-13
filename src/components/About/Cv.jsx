@@ -226,6 +226,17 @@ class Cv extends React.Component {
                   aria-valuemax="100"
                 ></div>
               </div>
+              Photoshop, Adobe XD
+              <div class="progress" style={{ height: "6px" }}>
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style={{ width: "100%" }}
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
             </div>
             <div className="col-6 p-1">
               <i>Non-Technical Skills</i>

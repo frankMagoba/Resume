@@ -437,7 +437,7 @@ class Cv extends React.Component {
             The project's goal is to build a high performance and smooth
             applications which is easier to update client side and maintain it.
             We use flutter, we try hard to improve the user experience which
-            makes using the hybrid app has the same experience with using an
+            makes using the hybrid app has the same experience with using a
             native app. My tasks mainly involve:
             <ul>
               <li>

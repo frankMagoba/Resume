@@ -25,7 +25,7 @@ class Cv extends React.Component {
             >
               <img
                 width="33"
-                src="https://image.shutterstock.com/z/stock-vector-website-icon-318872585.jpg"
+                src="https://res.cloudinary.com/dw675k0f5/image/upload/e_simulate_colorblind/v1572026291/storo/142-1423933_briefcase-circle-hd-png-download.jpg"
                 alt=""
               />
             </a>
@@ -38,7 +38,7 @@ class Cv extends React.Component {
             >
               <img
                 width="33"
-                src="https://res.cloudinary.com/dw675k0f5/image/upload/e_simulate_colorblind/v1572026291/storo/142-1423933_briefcase-circle-hd-png-download.jpg"
+                src="https://image.shutterstock.com/z/stock-vector-thin-line-hacker-or-coder-icon-on-a-grey-background-1018481677.jpg"
                 alt=""
               />
             </a>

@@ -27,6 +27,7 @@ import azactdir from "./Certificates/Azure_ ActiveDirectory.png";
 import sec from "./Certificates/security.png";
 import storage from "./Certificates/storage.png";
 import subscr from "./Certificates/subscriptions.png";
+import gads from "./Certificates/alc_badge_hours_franklinMagoba.png";
 
 import { Slide, Zoom } from "react-slideshow-image";
 
@@ -77,7 +78,8 @@ export class About extends Component {
       azactdir,
       sec,
       storage,
-      subscr
+      subscr,
+      gads
     ];
     const zoomOutProperties = {
       duration: 2500,

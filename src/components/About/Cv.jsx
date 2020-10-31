@@ -443,7 +443,7 @@ class Cv extends React.Component {
           <hr></hr>
           <b>Software Engineer at StartappzKE Limited, Nairobi</b>
           <br></br>
-          <label className="text-muted">July 2020 - Present</label>
+          <label className="text-muted">July 2020 - September 2020</label>
           <br></br>
           <p className="pl-2 text-mute">
             The project's goal is to build a high performance and smooth
@@ -473,6 +473,41 @@ class Cv extends React.Component {
                 platform.
               </li>
               <li>Build reusable and maintainable widgets based on flutter.</li>
+            </ul>
+          </p>
+        </div>
+        <hr></hr>
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Software Engineer at Kinetic Technology Limited, Nairobi</b>
+          <br></br>
+          <label className="text-muted">September 2020 - Present</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            Proud to be part of a cross-functional team that’s responsible for
+            the full software development life cycle, from conception to
+            deployment. Constantly working with both front-end and back-end
+            coding languages, development frameworks and third-party libraries.
+            This requires a team player with a knack for visual design and
+            utility. I’m also the weekly agile reporter of sprint progress in
+            various data metrics. Some of my responsibilities mostly involves:
+            <ul>
+              <li>Design client-side and server-side architecture</li>
+              <li>
+                Build the front-end of applications through appealing visual
+                design.{" "}
+              </li>
+              <li>
+                Develop and manage well-functioning databases and applications
+              </li>
+              <li>Write effective APIs </li>
+              <li>Create reports on sprints progress</li>
+              <li>Test software to ensure responsiveness and efficiency.</li>
+              <li>-Troubleshoot, debug and upgrade software</li>
+              <li>
+                Build features and applications with a mobile responsive design
+              </li>
+              <li>Write technical documentation</li>
             </ul>
           </p>
         </div>

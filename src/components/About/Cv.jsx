@@ -326,13 +326,15 @@ class Cv extends React.Component {
               </div>
             </div>
             <div className="col-md-6">
-              <b>Credit Card Transaction Classifier</b>
+              <b>
+                Kenya Institute of Supplies Management Membership Application
+                Portal
+              </b>
               <div style={{ fontSize: "15.5px" }}>
-                Final year data science college project that was involved in
-                creating a binary classifier to detect fraudulent credit card
-                transactions.<br></br>
+                Technical frontend lead for KISM membership application portal
+                and reviews for certified procurement officers.<br></br>
                 <a
-                  href="https://github.com/frankMagoba/Credit-Card-Transaction-Classifier"
+                  href="http://member.kism.or.ke/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
@@ -476,12 +478,11 @@ class Cv extends React.Component {
             </ul>
           </p>
         </div>
-        <hr></hr>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <hr></hr>
           <b>Software Engineer at Kinetic Technology Limited, Nairobi</b>
           <br></br>
-          <label className="text-muted">September 2020 - Present</label>
+          <label className="text-muted">September 2020 - February 2021</label>
           <br></br>
           <p className="pl-2 text-mute">
             Proud to be part of a cross-functional team that’s responsible for
@@ -503,11 +504,53 @@ class Cv extends React.Component {
               <li>Write effective APIs </li>
               <li>Create reports on sprints progress</li>
               <li>Test software to ensure responsiveness and efficiency.</li>
-              <li>-Troubleshoot, debug and upgrade software</li>
+              <li>Troubleshoot, debug and upgrade software</li>
               <li>
                 Build features and applications with a mobile responsive design
               </li>
               <li>Write technical documentation</li>
+            </ul>
+          </p>
+        </div>
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Senior Software Engineer at UAP OLD MUTUAL INSURANCE, Nairobi</b>
+          <br></br>
+          <label className="text-muted">March 2021 - Present</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            Senior Software Engineer at Old Mutual Insurance. I develop
+            information systems by studying operations; designing, developing,
+            and installing software solutions; support and develop a software
+            team. I lead a team of developers responsible for building new and
+            support existing applications. My responsibilities mostly entail:
+            <ul>
+              <li>
+                Design, develop and implement applications that support
+                day-to-day operations.
+              </li>
+              <li>
+                Provide innovative solutions to complex business problems..{" "}
+              </li>
+              <li>
+                Plan, develop and implement large-scale projects from conception
+                to completion.
+              </li>
+              <li>
+                Develop and architect lifecycle of projects working on different
+                technologies and platforms.{" "}
+              </li>
+              <li>
+                Interface with clients and gather business requirements and
+                objectives.
+              </li>
+              <li>Understand and evaluate complex data models.</li>
+              <li>Design, develop and implement new integration.</li>
+              <li>Execute system development and maintenance activities.</li>
+              <li>
+                Develop solutions to improvise the performance and scalability
+                of systems.
+              </li>
             </ul>
           </p>
         </div>

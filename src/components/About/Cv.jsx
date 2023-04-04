@@ -359,154 +359,13 @@ class Cv extends React.Component {
               </div>
             </div>
           </div>
-          <div className="text-left text-sm page-break">
-            <hr></hr>
-            <h6>
-              <b style={{ color: "green" }}>Work Experience</b>
-            </h6>
-            <b>
-              Information Technology and Administration Intern, County
-              Government of Busia
-            </b>
-            <br></br>
-            <label className="text-muted">May 2017 - September 2017</label>
-            <br></br>
-            <p className="pl-2 text-mute">
-              I was responsible for providing exceptional IT and administrative
-              support to all staff in the office of the governor. This required
-              planning, organization, coordination and commitment, as I had to
-              meet targets, balance tasks effectively, and communicate well with
-              other staff members. I have successfully streamlined
-              administrative tasks and IT support by implementing query login
-              procedures. Other responsibilities included: preparing and
-              distributing regular internal memos to all staff, updating county
-              information on the county website, and maintaining proper filing
-              and safekeeping of documents from vendors and clients.
-            </p>
-          </div>
-        </div>
-        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
-          <hr></hr>
-          <b>Software Engineer at Medbook Africa, Nairobi</b>
-          <br></br>
-          <label className="text-muted">May 2019 - May 2020</label>
-          <br></br>
-          <p className="pl-2 text-mute">
-            As a frontend developer for Medbook Limited, I was responsible for
-            creating healthcare applications. My main tasks included:
-            <br></br>
-            <ul className="ml-4">
-              <li>Optimizing and improving front-end performance</li>
-              <li>Providing design suggestions for new or existing code</li>
-              <li>
-                Communicating effectively with clients and acting as a liaison
-                between team members and clients
-              </li>
-              <li>Developing and managing a new Angular-based website</li>
-              <li>
-                Playing a key role in organizing single page applications to
-                make them easy to maintain and highly modularized
-              </li>
-              <li>
-                Collaborating with back-end developers to integrate RESTful
-                APIs.
-              </li>
-            </ul>
-          </p>
         </div>
 
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <hr></hr>
-          <b>Software Engineer at Bluroq Limited, Nairobi</b>
-          <br></br>
-          <label className="text-muted">June 2020 - Present</label>
-          <br></br>
-          <p className="pl-2 text-mute">
-            I am responsible for creating, implementing, and maintaining
-            internal web applications. I work closely with technical and
-            business staff to design, develop, test, implement, and provide
-            production support for the company's enterprise application. We
-            mainly use the MEAN Stack technology. My work is divided into three
-            main areas: 40% front-end development, 40% back-end development, and
-            the remaining 20% related to dev-ops/sysadmin tasks. Occasionally, I
-            am also asked to perform tasks such as transferring test database
-            data between environments, configuring Jenkins builds, adjusting
-            build plans, configuring webpack, or setting up UI/unit testing
-            frameworks.
-          </p>
-        </div>
-
-        <hr></hr>
-        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
-          <hr></hr>
-          <b>Software Engineer at StartappzKE Limited, Nairobi</b>
-          <br></br>
-          <label className="text-muted">July 2020 - September 2020</label>
-          <br></br>
-          <p className="pl-2 text-mute">
-            The goal of the project was to develop high-performance and smooth
-            applications that are easy to update on the client-side and
-            maintain. We use Flutter and strive to enhance the user experience
-            to the point where using our hybrid app feels like using a native
-            app. My primary tasks included setting up front-end structures and
-            selecting the appropriate technologies for the project, interviewing
-            candidates for front-end positions, providing technical guidance and
-            solutions to other teams such as Design and BA, using Flutter,
-            Websocket, and related technologies to construct the web view
-            component of the app, improving user experience through technical
-            means such as reducing code base, minimizing HTTP requests, and
-            ensuring compatibility across different platforms, and creating
-            reusable and maintainable widgets with Flutter.
-          </p>
-        </div>
-        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
-          <hr></hr>
-          <b>Software Engineer at Kinetic Technology Limited, Nairobi</b>
-          <br></br>
-          <label className="text-muted">September 2020 - February 2021</label>
-          <br></br>
-          <p className="pl-2 text-mute">
-            As a member of a cross-functional team, I was responsible for
-            overseeing the entire software development process, from initial
-            concept to final deployment. I am proficient in both front-end and
-            back-end coding languages, development frameworks, and third-party
-            libraries, which requires a team player with a keen sense of visual
-            design and functionality. I was also responsible for reporting on
-            sprint progress using various data metrics on a weekly basis. My
-            main responsibilities include designing client- side and server-side
-            architecture, creating visually appealing front-end designs,
-            developing and maintaining efficient databases and applications,
-            writing effective APIs, creating reports on sprint progress, testing
-            software to ensure its responsiveness and efficiency,
-            troubleshooting, debugging, and upgrading software, building
-            features and applications with mobile responsiveness in mind, and
-            writing technical documentation.
-          </p>
-        </div>
-        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
-          <hr></hr>
-          <b>Senior Software Engineer at UAP OLD MUTUAL INSURANCE, Nairobi</b>
-          <br></br>
-          <label className="text-muted">March 2021 - Present</label>
-          <br></br>
-          <p className="pl-2 text-mute">
-            I primarily utilized Node Js to design, develop, and implement
-            software solutions for mobile and web apps. My key responsibilities
-            included creating custom software solutions to meet the unique needs
-            of clients, overseeing the product development process from
-            conception to completion, collaborating with software and hardware
-            teams to improve the user experience and ensure data security for
-            customers, developing software that interacts with back-end
-            databases, troubleshooting and modifying existing applications and
-            software modules as needed, promptly addressing critical support
-            issues, following coding standards and architectural practices as
-            guided by the Software Architect, and supporting Senior Developers
-            with additional tasks as assigned.
-          </p>
-        </div>
-
-        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
-          <hr></hr>
+          <h6>
+            <b style={{ color: "green" }}>Work Experience</b>
+          </h6>
           <b>
             Software Engineer at GitStart (YC S19), San Francisco, California,
             United States · Remote
@@ -548,6 +407,148 @@ class Cv extends React.Component {
             using Jest to ensure high code coverage and mentor junior engineers,
             as well as participating in code reviews to promote best practices
             and improve code quality.
+          </p>
+        </div>
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Senior Software Engineer at UAP OLD MUTUAL INSURANCE, Nairobi</b>
+          <br></br>
+          <label className="text-muted">March 2021 - Present</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            I primarily utilized Node Js to design, develop, and implement
+            software solutions for mobile and web apps. My key responsibilities
+            included creating custom software solutions to meet the unique needs
+            of clients, overseeing the product development process from
+            conception to completion, collaborating with software and hardware
+            teams to improve the user experience and ensure data security for
+            customers, developing software that interacts with back-end
+            databases, troubleshooting and modifying existing applications and
+            software modules as needed, promptly addressing critical support
+            issues, following coding standards and architectural practices as
+            guided by the Software Architect, and supporting Senior Developers
+            with additional tasks as assigned.
+          </p>
+        </div>
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Software Engineer at Kinetic Technology Limited, Nairobi</b>
+          <br></br>
+          <label className="text-muted">September 2020 - February 2021</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            As a member of a cross-functional team, I was responsible for
+            overseeing the entire software development process, from initial
+            concept to final deployment. I am proficient in both front-end and
+            back-end coding languages, development frameworks, and third-party
+            libraries, which requires a team player with a keen sense of visual
+            design and functionality. I was also responsible for reporting on
+            sprint progress using various data metrics on a weekly basis. My
+            main responsibilities include designing client- side and server-side
+            architecture, creating visually appealing front-end designs,
+            developing and maintaining efficient databases and applications,
+            writing effective APIs, creating reports on sprint progress, testing
+            software to ensure its responsiveness and efficiency,
+            troubleshooting, debugging, and upgrading software, building
+            features and applications with mobile responsiveness in mind, and
+            writing technical documentation.
+          </p>
+        </div>
+
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Software Engineer at StartappzKE Limited, Nairobi</b>
+          <br></br>
+          <label className="text-muted">July 2020 - September 2020</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            The goal of the project was to develop high-performance and smooth
+            applications that are easy to update on the client-side and
+            maintain. We use Flutter and strive to enhance the user experience
+            to the point where using our hybrid app feels like using a native
+            app. My primary tasks included setting up front-end structures and
+            selecting the appropriate technologies for the project, interviewing
+            candidates for front-end positions, providing technical guidance and
+            solutions to other teams such as Design and BA, using Flutter,
+            Websocket, and related technologies to construct the web view
+            component of the app, improving user experience through technical
+            means such as reducing code base, minimizing HTTP requests, and
+            ensuring compatibility across different platforms, and creating
+            reusable and maintainable widgets with Flutter.
+          </p>
+        </div>
+
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Software Engineer at Bluroq Limited, Nairobi</b>
+          <br></br>
+          <label className="text-muted">June 2020 - Present</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            I am responsible for creating, implementing, and maintaining
+            internal web applications. I work closely with technical and
+            business staff to design, develop, test, implement, and provide
+            production support for the company's enterprise application. We
+            mainly use the MEAN Stack technology. My work is divided into three
+            main areas: 40% front-end development, 40% back-end development, and
+            the remaining 20% related to dev-ops/sysadmin tasks. Occasionally, I
+            am also asked to perform tasks such as transferring test database
+            data between environments, configuring Jenkins builds, adjusting
+            build plans, configuring webpack, or setting up UI/unit testing
+            frameworks.
+          </p>
+        </div>
+
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Software Engineer at Medbook Africa, Nairobi</b>
+          <br></br>
+          <label className="text-muted">May 2019 - May 2020</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            As a frontend developer for Medbook Limited, I was responsible for
+            creating healthcare applications. My main tasks included:
+            <br></br>
+            <ul className="ml-4">
+              <li>Optimizing and improving front-end performance</li>
+              <li>Providing design suggestions for new or existing code</li>
+              <li>
+                Communicating effectively with clients and acting as a liaison
+                between team members and clients
+              </li>
+              <li>Developing and managing a new Angular-based website</li>
+              <li>
+                Playing a key role in organizing single page applications to
+                make them easy to maintain and highly modularized
+              </li>
+              <li>
+                Collaborating with back-end developers to integrate RESTful
+                APIs.
+              </li>
+            </ul>
+          </p>
+        </div>
+
+        <div className="text-left text-sm page-break">
+          <hr></hr>
+          <b>
+            Information Technology and Administration Intern, County Government
+            of Busia
+          </b>
+          <br></br>
+          <label className="text-muted">May 2017 - September 2017</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            I was responsible for providing exceptional IT and administrative
+            support to all staff in the office of the governor. This required
+            planning, organization, coordination and commitment, as I had to
+            meet targets, balance tasks effectively, and communicate well with
+            other staff members. I have successfully streamlined administrative
+            tasks and IT support by implementing query login procedures. Other
+            responsibilities included: preparing and distributing regular
+            internal memos to all staff, updating county information on the
+            county website, and maintaining proper filing and safekeeping of
+            documents from vendors and clients.
           </p>
         </div>
 

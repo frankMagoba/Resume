@@ -86,14 +86,14 @@ class Cv extends React.Component {
             <b style={{ color: "green" }}>Profile</b>
           </h6>
           <p className="p-2 text-mute">
-            A Software Engineer with demonstrated history in goal-achievement,
-            leadership, team play and efficiency. Highly technical yet business
-            oriented, with hands-on experience, knowledge and skills in IT
-            Strategy, Delivery and Operations combined with expertise in Agile
-            leadership and project management. Throughout my 4 year experience
-            time as a software developer, I have worked with different teams to
-            create applications that optimized systems, saved on cost, and
-            improved users' experience.
+            A Software Engineer with a demonstrated history in goal-achievement,
+            leadership, team play, and efficiency. Highly technical yet
+            business-oriented, with hands-on experience, knowledge, and skills
+            in IT Strategy, Delivery, and Operations combined with expertise in
+            Agile leadership and project management. Throughout my 5 year
+            experience time as a software developer, I have worked with
+            different teams to create applications that optimized systems, saved
+            on cost, and improved users' experience.
           </p>
         </div>
         <hr></hr>
@@ -276,9 +276,14 @@ class Cv extends React.Component {
             <div className="col-md-6">
               <b>Medihealth </b>
               <div style={{ fontSize: "15.5px" }}>
-                Responsible for designing the entire admin frontend of the
-                medihealth application used by 100+ clinics across the country
-                for patients and doctors.<br></br>
+                In my first role as a frontend software engineer intern at
+                MediHealth, I had the opportunity to contribute to the
+                development of the administrative frontend for the MediHealth
+                application. This application was used by over 100 clinics
+                across the country to facilitate communication between patients
+                and doctors. During my time there, I was also involved in
+                training doctors across the country on how to use the system
+                effectively.<br></br>
                 <a
                   href="https://medihealth.medbookafrica.com/"
                   target="_blank"
@@ -291,12 +296,17 @@ class Cv extends React.Component {
               </div>
             </div>
             <div className="col-md-6">
-              <b>Mediclaim</b>
+              <b>Theia Pay</b>
               <div style={{ fontSize: "15.5px" }}>
-                Responsible for the frontend of the medical insurance claiming
-                system being used by 100+ clinics across the country.<br></br>
+                As part of my work experience, I contributed to the development
+                of the Theia Pay financial application, which was designed to
+                facilitate currency transactions in China. The project utilized
+                a technology stack consisting of React, Node.js, AWS Lambda,
+                DynamoDB, and React Native. I was a member of a team of seven
+                developers and served as the repository owner for the project.
+                <br></br>
                 <a
-                  href="https://mediclaim.medbookafrica.com/"
+                  href="https://theia.global/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
@@ -310,12 +320,15 @@ class Cv extends React.Component {
           <br></br>
           <div className="row">
             <div className="col-md-6">
-              <b>Snack Store Prototype </b>
+              <b>Modern Mirror </b>
               <div style={{ fontSize: "15.5px" }}>
-                A prototype for platform food products can be delivered to a
-                wide market by customers ordering via mobile phones.<br></br>
+                As part of a development team, I contributed to the creation of
+                a virtual artelier for fashion and design. Our primary client
+                for this project was Burberry. The frontend of the application
+                was developed using React.js, while the backend utilized Flask
+                in Python, incorporating Google Cloud SDK.<br></br>
                 <a
-                  href="https://still-tundra-08708.herokuapp.com"
+                  href="https://themodernmirror.com/home/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ textDecoration: "none" }}
@@ -331,8 +344,9 @@ class Cv extends React.Component {
                 Portal
               </b>
               <div style={{ fontSize: "15.5px" }}>
-                Technical frontend lead for KISM membership application portal
-                and reviews for certified procurement officers.<br></br>
+                I served as the technical frontend lead for the KISM membership
+                application portal. Additionally, I oversaw the development of a
+                reviews system for certified procurement officers.<br></br>
                 <a
                   href="http://member.kism.or.ke/"
                   target="_blank"

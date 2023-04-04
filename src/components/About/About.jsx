@@ -120,7 +120,7 @@ export class About extends Component {
               margin="1.5cm"
               forcePageBreak=".page-break"
               scale={0.7}
-              fileName="franklin_magoba.pdf"
+              fileName="resume.pdf"
               title=""
               subject=""
               keywords=""

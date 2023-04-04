@@ -372,23 +372,16 @@ class Cv extends React.Component {
             <label className="text-muted">May 2017 - September 2017</label>
             <br></br>
             <p className="pl-2 text-mute">
-              Responsible for providing exemplary IT and administrative support
-              to all staff in the office of the governor. This involved
-              planning, organization, coordination and commitment as I had to
-              meet targets, fairly balance tasks and effectively communicate to
-              other staff members. Successfully streamlined administrative tasks
-              and IT support by introducing query login procedures. Other duties
-              included:
-              <ul>
-                <li>
-                  Preparing and mailing periodic internal memos to all staff
-                </li>
-                <li>Updating county communication on county website</li>
-                <li>
-                  Filing documents of vendor and client origin and ensuring
-                  their safe custody
-                </li>
-              </ul>
+              I was responsible for providing exceptional IT and administrative
+              support to all staff in the office of the governor. This required
+              planning, organization, coordination and commitment, as I had to
+              meet targets, balance tasks effectively, and communicate well with
+              other staff members. I have successfully streamlined
+              administrative tasks and IT support by implementing query login
+              procedures. Other responsibilities included: preparing and
+              distributing regular internal memos to all staff, updating county
+              information on the county website, and maintaining proper filing
+              and safekeeping of documents from vendors and clients.
             </p>
           </div>
         </div>
@@ -399,58 +392,47 @@ class Cv extends React.Component {
           <label className="text-muted">May 2019 - May 2020</label>
           <br></br>
           <p className="pl-2 text-mute">
-            I was working on Javascript, PHP (Angular and Laravel), and
-            applications. Some of my web apps included:{" "}
-            <a
-              href="https://medihealth.medbookafrica.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              {" "}
-              Medihealth{" "}
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://mediclaim.medbookafrica.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              {" "}
-              Mediclaim{" "}
-            </a>{" "}
-            which involved designing Digital menu boards, mobile/desktop
-            business dashboards, online website plugins, and APIs. I was also
-            responsible for managing my team's web infrastructure and website
-            design. Most of the servers I dealt with were Debian/Ubuntu and I
-            utilized AWS for off-site hosting.
+            As a frontend developer for Medbook Limited, I was responsible for
+            creating healthcare applications. My main tasks included:
             <br></br>
-            <strong className="text-muted">Stacks</strong>
             <ul className="ml-4">
-              <li>Angular 8</li>
-              <li>Php Laravel</li>
+              <li>Optimizing and improving front-end performance</li>
+              <li>Providing design suggestions for new or existing code</li>
+              <li>
+                Communicating effectively with clients and acting as a liaison
+                between team members and clients
+              </li>
+              <li>Developing and managing a new Angular-based website</li>
+              <li>
+                Playing a key role in organizing single page applications to
+                make them easy to maintain and highly modularized
+              </li>
+              <li>
+                Collaborating with back-end developers to integrate RESTful
+                APIs.
+              </li>
             </ul>
           </p>
         </div>
 
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <hr></hr>
-          <b>Software Engineer at Shark Alliance Limited, Nairobi</b>
+          <b>Software Engineer at Bluroq Limited, Nairobi</b>
           <br></br>
           <label className="text-muted">June 2020 - Present</label>
           <br></br>
           <p className="pl-2 text-mute">
-            Responsible for developing, implementing, and maintaining mostly
-            internal web applications. I collaborated with technical and
-            business staff in the design, development, testing, implementation,
-            and production support of the company's enterprise application. We
-            primarily use MEAN Stack. 40% of my work was doing front end
-            development, 40% back end development and the remaining 20% was
-            dev-ops/sysadmin related tasks. I am occasionally asked to do things
-            such as migrating test database data between environments, doing
-            jenkins builds/minor build plan tweaks, configuring webpack/or
-            ui/unit testing frameworks.
+            I am responsible for creating, implementing, and maintaining
+            internal web applications. I work closely with technical and
+            business staff to design, develop, test, implement, and provide
+            production support for the company's enterprise application. We
+            mainly use the MEAN Stack technology. My work is divided into three
+            main areas: 40% front-end development, 40% back-end development, and
+            the remaining 20% related to dev-ops/sysadmin tasks. Occasionally, I
+            am also asked to perform tasks such as transferring test database
+            data between environments, configuring Jenkins builds, adjusting
+            build plans, configuring webpack, or setting up UI/unit testing
+            frameworks.
           </p>
         </div>
 
@@ -462,34 +444,19 @@ class Cv extends React.Component {
           <label className="text-muted">July 2020 - September 2020</label>
           <br></br>
           <p className="pl-2 text-mute">
-            The project's goal is to build a high performance and smooth
-            applications which is easier to update client side and maintain it.
-            We use flutter, we try hard to improve the user experience which
-            makes using the hybrid app has the same experience with using a
-            native app. My tasks mainly involve:
-            <ul>
-              <li>
-                Set up front-end structures and choose the suitable techs for
-                the project.
-              </li>
-              <li>
-                Interview candidates that apply for the front-end position.{" "}
-              </li>
-              <li>
-                Offer technical advices and solutions for other teams such as
-                Design and BA.
-              </li>
-              <li>
-                Using Flutter, Websocket and relative techs to build the web
-                view part in the app{" "}
-              </li>
-              <li>
-                Improve user experience through technical way such like reducing
-                code base, reducing http requests, and compatibility with each
-                platform.
-              </li>
-              <li>Build reusable and maintainable widgets based on flutter.</li>
-            </ul>
+            The goal of the project was to develop high-performance and smooth
+            applications that are easy to update on the client-side and
+            maintain. We use Flutter and strive to enhance the user experience
+            to the point where using our hybrid app feels like using a native
+            app. My primary tasks included setting up front-end structures and
+            selecting the appropriate technologies for the project, interviewing
+            candidates for front-end positions, providing technical guidance and
+            solutions to other teams such as Design and BA, using Flutter,
+            Websocket, and related technologies to construct the web view
+            component of the app, improving user experience through technical
+            means such as reducing code base, minimizing HTTP requests, and
+            ensuring compatibility across different platforms, and creating
+            reusable and maintainable widgets with Flutter.
           </p>
         </div>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
@@ -499,31 +466,21 @@ class Cv extends React.Component {
           <label className="text-muted">September 2020 - February 2021</label>
           <br></br>
           <p className="pl-2 text-mute">
-            Proud to be part of a cross-functional team that’s responsible for
-            the full software development life cycle, from conception to
-            deployment. Constantly working with both front-end and back-end
-            coding languages, development frameworks and third-party libraries.
-            This requires a team player with a knack for visual design and
-            utility. I’m also the weekly agile reporter of sprint progress in
-            various data metrics. Some of my responsibilities mostly involves:
-            <ul>
-              <li>Design client-side and server-side architecture</li>
-              <li>
-                Build the front-end of applications through appealing visual
-                design.{" "}
-              </li>
-              <li>
-                Develop and manage well-functioning databases and applications
-              </li>
-              <li>Write effective APIs </li>
-              <li>Create reports on sprints progress</li>
-              <li>Test software to ensure responsiveness and efficiency.</li>
-              <li>Troubleshoot, debug and upgrade software</li>
-              <li>
-                Build features and applications with a mobile responsive design
-              </li>
-              <li>Write technical documentation</li>
-            </ul>
+            As a member of a cross-functional team, I was responsible for
+            overseeing the entire software development process, from initial
+            concept to final deployment. I am proficient in both front-end and
+            back-end coding languages, development frameworks, and third-party
+            libraries, which requires a team player with a keen sense of visual
+            design and functionality. I was also responsible for reporting on
+            sprint progress using various data metrics on a weekly basis. My
+            main responsibilities include designing client- side and server-side
+            architecture, creating visually appealing front-end designs,
+            developing and maintaining efficient databases and applications,
+            writing effective APIs, creating reports on sprint progress, testing
+            software to ensure its responsiveness and efficiency,
+            troubleshooting, debugging, and upgrading software, building
+            features and applications with mobile responsiveness in mind, and
+            writing technical documentation.
           </p>
         </div>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
@@ -533,39 +490,64 @@ class Cv extends React.Component {
           <label className="text-muted">March 2021 - Present</label>
           <br></br>
           <p className="pl-2 text-mute">
-            Senior Software Engineer at Old Mutual Insurance. I develop
-            information systems by studying operations; designing, developing,
-            and installing software solutions; support and develop a software
-            team. I lead a team of developers responsible for building new and
-            support existing applications. My responsibilities mostly entail:
-            <ul>
-              <li>
-                Design, develop and implement applications that support
-                day-to-day operations.
-              </li>
-              <li>
-                Provide innovative solutions to complex business problems..{" "}
-              </li>
-              <li>
-                Plan, develop and implement large-scale projects from conception
-                to completion.
-              </li>
-              <li>
-                Develop and architect lifecycle of projects working on different
-                technologies and platforms.{" "}
-              </li>
-              <li>
-                Interface with clients and gather business requirements and
-                objectives.
-              </li>
-              <li>Understand and evaluate complex data models.</li>
-              <li>Design, develop and implement new integration.</li>
-              <li>Execute system development and maintenance activities.</li>
-              <li>
-                Develop solutions to improvise the performance and scalability
-                of systems.
-              </li>
-            </ul>
+            I primarily utilized Node Js to design, develop, and implement
+            software solutions for mobile and web apps. My key responsibilities
+            included creating custom software solutions to meet the unique needs
+            of clients, overseeing the product development process from
+            conception to completion, collaborating with software and hardware
+            teams to improve the user experience and ensure data security for
+            customers, developing software that interacts with back-end
+            databases, troubleshooting and modifying existing applications and
+            software modules as needed, promptly addressing critical support
+            issues, following coding standards and architectural practices as
+            guided by the Software Architect, and supporting Senior Developers
+            with additional tasks as assigned.
+          </p>
+        </div>
+
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>
+            Software Engineer at GitStart (YC S19), San Francisco, California,
+            United States · Remote
+          </b>
+          <br></br>
+          <label className="text-muted">May 2021 - Present</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            My main responsibilities include working on a central system that
+            oversees the activity of many developers on the platform. I utilize
+            technologies such as GraphQL, NodeJS, React, and TypeScript to
+            enhance the experience of other software engineers. Additionally, I
+            design, modify, and implement technology solutions for clients,
+            create advanced tools and applications to achieve business
+            objectives, test important and vital systems, and create and
+            maintain documentation for software processes and systems, including
+            requirements and design documents.
+          </p>
+        </div>
+
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>
+            Software Engineer at Bright Coders'​ Factory, Opole, Opolskie,
+            Poland · Remote
+          </b>
+          <br></br>
+          <label className="text-muted">March 2022 - Present</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            As a software engineer with expertise in Node.js and backend
+            development, my primary responsibilities include developing and
+            maintaining a highly scalable and secure Node.js-based backend for
+            web and mobile applications. I work closely with front-end
+            developers to integrate APIs with Android, iOs and Angular-based
+            user interfaces and continuously implement new features and
+            improvements to the existing codebase utilizing technologies such as
+            Express, MongoDB, and Redis. Additionally, I write automated tests
+            using Jest to ensure high code coverage and mentor junior engineers,
+            as well as participating in code reviews to promote best practices
+            and improve code quality.
           </p>
         </div>
 

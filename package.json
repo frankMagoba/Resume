@@ -1,5 +1,5 @@
 {
-  "homepage": "https://frank-lin.herokuapp.com/",
+  "homepage": "https://frankmagoba.github.io/Resume",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --branch master"
+    "deploy" : "gh-pages -d build"   
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,7 +38,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "ws": "3.3.2"
   }
 }

@@ -575,7 +575,6 @@ class Cv extends React.Component {
 
         <hr></hr>
 
-        <hr></hr>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <h6>
             <b style={{ color: "green" }}>Bootcamps and Training</b>

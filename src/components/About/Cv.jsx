@@ -409,6 +409,34 @@ class Cv extends React.Component {
             and improve code quality.
           </p>
         </div>
+
+        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+          <hr></hr>
+          <b>Open Source</b>
+          <br></br>
+          <label className="text-muted">March 2020 - Present</label>
+          <br></br>
+          <p className="pl-2 text-mute">
+            I have extensive experience using and contributing to open source
+            software. I have worked with several open source projects including
+            NocoDB, Convoy, Rocket.Chat, and Storybook. In my experience,
+            working with open source software has been a valuable learning
+            experience. It has given me the opportunity to collaborate with
+            other developers, learn from their expertise, and contribute to the
+            community by creating and submitting code improvements and bug
+            fixes. As an active contributor to open source projects, I have
+            gained a deep understanding of the software development lifecycle,
+            including version control, continuous integration, and deployment. I
+            have also learned how to write clear documentation, communicate
+            effectively with other developers, and manage project timelines and
+            priorities. I am passionate about open source software because of
+            the many benefits it provides. Not only does it promote
+            collaboration and knowledge sharing, but it also enables developers
+            to build better software more efficiently. I believe that my
+            experience in open source software will be an asset to any team and
+            I am excited to continue contributing to the community.
+          </p>
+        </div>
         <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <hr></hr>
           <b>Senior Software Engineer at UAP OLD MUTUAL INSURANCE, Nairobi</b>

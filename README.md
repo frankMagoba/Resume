@@ -1,6 +1,6 @@
 ## Description
 This is my portfolio website
-[Live](https://frank-lin.herokuapp.com/)
+[Live](https://frankmagoba.github.io/Resume/)
 
 
 ### Stacks used

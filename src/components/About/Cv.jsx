@@ -603,7 +603,7 @@ class Cv extends React.Component {
         </div>
 
         <hr></hr>
-        <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
+        {/* <div className="text-left text-sm" style={{ fontSize: "15.5px" }}>
           <h6>
             <b style={{ color: "green" }}>References</b>
           </h6>
@@ -628,7 +628,7 @@ class Cv extends React.Component {
               +254 734 663817{" "}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

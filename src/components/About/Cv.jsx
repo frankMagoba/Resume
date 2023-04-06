@@ -382,7 +382,35 @@ class Cv extends React.Component {
             create advanced tools and applications to achieve business
             objectives, test important and vital systems, and create and
             maintain documentation for software processes and systems, including
-            requirements and design documents.
+            requirements and design documents. Among my daily responsibilities
+            are:
+            <ul className="ml-4">
+              <li>
+                Conducting requirements gathering and validation as a part of
+                collaboration for the high-profile progressive web application
+                that helped to develop clear, unambiguous technical requirements
+                and establish consistent feed-back loop.
+              </li>
+              <li>
+                Reviewing the quality of code for the high-volume progressive
+                web application maintaining code and design consistency across
+                different team members
+              </li>
+              <li>
+                Transforming client needs into the new product features for the
+                high-profile external web app.
+              </li>
+              <li>
+                Oversaw full lifecycle of software development for the
+                high-volume customers-facing portal. As a result 7 major
+                products updates have been completed on time and on budget.
+              </li>
+              <li>
+                Mentoring and couching newly hired team members related to the
+                critical customers-facing portal resulting in 63% of onboarding
+                time decrease.
+              </li>
+            </ul>
           </p>
         </div>
 
@@ -406,7 +434,43 @@ class Cv extends React.Component {
             Express, MongoDB, and Redis. Additionally, I write automated tests
             using Jest to ensure high code coverage and mentor junior engineers,
             as well as participating in code reviews to promote best practices
-            and improve code quality.
+            and improve code quality. On a daily basis, I am responsible for:
+            <ul className="ml-4">
+              <li>
+                Capturing the best development practices in a way of common
+                condign standards team of 4 developers that helped to decrease
+                code complexity and improve maintainability of the shared
+                libraries and components.
+              </li>
+              <li>
+                Integrating with third-party services and external APIs as a
+                part of implementation of the high-profile customers-facing
+                portal adopting an improved way of reports producing amongst
+                different solutions and mitigating the code duplicity by 60%
+              </li>
+              <li>
+                Reverse-Engineering legacy modules related to high-profile
+                online service, following to the more effective components
+                interoperability and code maintainability.
+              </li>
+              <li>
+                Implementation of the set of new API endpoints related to the
+                mission-critical internal web application, that provided
+                critical connectivity channel for distributed functionality and
+                increase system cohesion keeping manageable code complexity.
+              </li>
+              <li>
+                Refined and improved the existing code for the high-profile
+                external web app that significantly improved app functionality,
+                processing speed and increased system resilience by 81%
+              </li>
+              <li>
+                Assessing project requirements using Agile & Scrum principles
+                related to the high-volume customers-facing portal that helped
+                prioritize developing activities and reduce ad hoc work requests
+                by 27%
+              </li>
+            </ul>
           </p>
         </div>
 

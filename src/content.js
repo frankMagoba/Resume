@@ -92,29 +92,66 @@ export const experience = [
 ];
 
 export const projects = [
-  { name: "Sway", what: "Civic voting-group app", where: "GitStart", stack: ["React", "Next.js", "Hasura", "Express"],
-    links: [["Website", "https://www.sway.co/"], ["Google Play", "https://play.google.com/store/apps/details?id=co.sway.www"], ["App Store", "https://apps.apple.com/us/app/sway-vote-together/id6756804681"]] },
-  { name: "Alaan", what: "UAE corporate cards. I built the bank-feed workers", where: "GitStart", stack: ["NestJS", "AWS SQS", "Codat", "Xero"],
+  { name: "Optibus operator integrations", what: "Integrations for a public-transport planning platform: payroll exports, timetables, duty overviews and PDF or Excel reports for operators such as SPTrans in Sao Paulo, Xtrafik in Sweden, a Tuscany network and an Austrian operator",
+    role: "Built most of them and maintain all of them, plus the SRE work with CloudWatch and Grafana", where: "GitStart", dates: "Jul 2024 to now",
+    tags: ["backend", "sre"], stack: ["Python", "AWS Lambda", "CloudWatch", "Grafana", "pytest"], links: [["Optibus", "https://www.optibus.com/"]], note: "The integrations sit behind Optibus's login." },
+  { name: "Alaan Pay", what: "UAE corporate cards and spend management",
+    role: "Backend: NestJS workers on AWS SQS that pull Codat and Xero bank feeds, with retries and Jest tests on the sync paths", where: "GitStart", dates: "Since 2023",
+    tags: ["backend"], stack: ["NestJS", "TypeScript", "AWS SQS", "Sequelize", "Jest"],
     links: [["Website", "https://www.alaan.com/"], ["Google Play", "https://play.google.com/store/apps/details?id=com.alaanpay.spender"], ["App Store", "https://apps.apple.com/ae/app/alaan/id1605833078"]] },
-  { name: "DocSum", what: "AI contract review for in-house legal teams", where: "GitStart", stack: ["FastAPI", "pgvector", "RabbitMQ"],
-    links: [["Website", "https://www.docsum.ai/"]] },
-  { name: "Optibus", what: "Transit planning. My integrations sit behind their login", where: "GitStart", stack: ["Python", "AWS Lambda", "CloudWatch", "Grafana"],
-    links: [["Website", "https://www.optibus.com/"]] },
-  { name: "Productlane", what: "Customer feedback portal built on Linear", where: "GitStart", stack: ["Web app"],
-    links: [["Website", "https://productlane.com/"]] },
-  { name: "Theia", what: "AI stock research app", where: "GitStart", stack: ["React Native", "Node.js"],
+  { name: "DocSum", what: "AI contract review for in-house legal teams",
+    role: "Contract-review APIs in FastAPI with pgvector search feeding OpenAI models (RAG), and slow parse jobs moved onto RabbitMQ", where: "GitStart", dates: "Since 2023",
+    tags: ["backend", "ai"], stack: ["FastAPI", "PostgreSQL", "pgvector", "RabbitMQ", "OpenAI"], links: [["Website", "https://www.docsum.ai/"]] },
+  { name: "Sway", what: "Nonpartisan civic voting-group app",
+    role: "Real-time React and Next.js screens on Hasura GraphQL, with Express services behind it", where: "GitStart", dates: "2021 to 2023",
+    tags: ["frontend", "backend"], stack: ["React", "Next.js", "TypeScript", "Hasura", "Express"],
+    links: [["Website", "https://www.sway.co/"], ["Google Play", "https://play.google.com/store/apps/details?id=co.sway.www"], ["App Store", "https://apps.apple.com/us/app/sway-vote-together/id6756804681"]] },
+  { name: "Theia", what: "Fintech and AI stock research app. I worked on Theia Pay, its currency-transaction app",
+    role: "React Native and React screens on Node.js and AWS Lambda, with M-Pesa Daraja for mobile money", where: "GitStart", dates: "2021 to 2023",
+    tags: ["mobile", "frontend"], stack: ["React Native", "React", "Node.js", "AWS Lambda", "M-Pesa Daraja"],
     links: [["Website", "https://www.theiafintech.com/"], ["App Store", "https://apps.apple.com/us/app/ai-stock-trading-bot-agents/id6738607499"]] },
-  { name: "Betashares Direct", what: "Australian investing app, frontend and mobile", where: "GitStart", stack: ["Frontend", "Mobile"],
+  { name: "Betashares Direct", what: "Australian investing app", role: "Frontend and mobile developer", where: "GitStart", dates: "",
+    tags: ["mobile", "frontend"], stack: ["Frontend", "Mobile"],
     links: [["Google Play", "https://play.google.com/store/apps/details?id=au.com.betashares.direct"], ["App Store", "https://apps.apple.com/au/app/betashares-direct-investing/id1669109591"]] },
-  { name: "AAR Insurance Kenya", what: "Policies, claims and M-Pesa payments", where: "Startappz", stack: ["Flutter", "WebSockets", "Laravel"],
+  { name: "Productlane", what: "Customer support and feedback portal built on Linear", role: "Web app work", where: "GitStart", dates: "",
+    tags: ["frontend"], stack: ["Web app"], links: [["Website", "https://productlane.com/"]] },
+  { name: "Ready Travel", what: "Travel product with a Java backend serving web and mobile apps",
+    role: "Took over as tech lead in 2022, led 4 engineers and set the architecture, then led delivery through early 2025", where: "GitStart", dates: "2022 to early 2025",
+    tags: ["backend", "frontend", "mobile"], stack: ["Java", "Spring Boot", "React", "React Native"], links: [], note: "No public site or app." },
+  { name: "AfterQuery agent-eval tasks", what: "Coding tasks that AI agents must solve, used to evaluate models",
+    role: "Write each task with a reference solution and gold tests, package it as a Docker sandbox with oracle/nop checks, and review agent output", where: "AfterQuery", dates: "Aug 2025 to now",
+    tags: ["ai", "backend"], stack: ["Python", "TypeScript", "Kotlin", "Swift", "Rust", "C++", "Docker"], links: [], note: "Private work, no public link." },
+  { name: "MenoLife", what: "Menopause symptom tracker",
+    role: "React Native app with SwiftUI and Kotlin native modules, and Firebase Remote Config A/B tests before full rollout", where: "Bright Coders Factory", dates: "2022 to 2023",
+    tags: ["mobile"], stack: ["React Native", "SwiftUI", "Kotlin", "Firebase"], links: [["MenoLabs", "https://menolabs.com/"]],
+    note: "Dr Reddy's bought MenoLabs in January 2024 and the app came off the stores in early 2025." },
+  { name: "Modern Mirror", what: "Virtual fitting for fashion brands", role: "Part-time frontend web developer", where: "US client", dates: "2022 to 2023",
+    tags: ["frontend"], stack: ["Frontend"], links: [["Website", "https://themodernmirror.com/home/"]] },
+  { name: "UAP Old Mutual internal services", what: "Internal services for an insurer's daily policy transactions",
+    role: "Node.js services on PostgreSQL with raw SQL, Redis on heavy report reads, and claims APIs with status notifications", where: "UAP Old Mutual Group", dates: "Mar 2021 to Oct 2021",
+    tags: ["backend"], stack: ["Node.js", "PostgreSQL", "Redis"], links: [], note: "Internal, no public link." },
+  { name: "KISM and LSK internal tools", what: "Internal tools for the Kenya Institute of Supplies Management and LSK",
+    role: "Built in React and Node.js, shipped with Docker", where: "Kinetic Technology", dates: "Sep 2020 to Mar 2021",
+    tags: ["frontend", "backend"], stack: ["React", "Node.js", "Docker"], links: [], note: "Internal, no public link." },
+  { name: "AAR Insurance Kenya", what: "Insurance app: policies, claims and M-Pesa payments",
+    role: "Built the Flutter app with WebSockets for live updates, on a Laravel and MySQL API", where: "Startappz", dates: "Jul 2020 to Sep 2020",
+    tags: ["mobile"], stack: ["Flutter", "Dart", "WebSockets", "Laravel", "MySQL"],
     links: [["Google Play", "https://play.google.com/store/apps/details?id=com.aarinsurance.customer.app"], ["App Store", "https://apps.apple.com/ke/app/aar-insurance/id1561522021"]] },
-  { name: "MenoLife", what: "Menopause tracker. Dr Reddy's bought MenoLabs in January 2024 and the app came off the stores in early 2025", where: "Bright Coders Factory", stack: ["React Native", "Firebase"],
-    links: [["MenoLabs", "https://menolabs.com/"]] },
-  { name: "Modern Mirror", what: "Virtual fitting for fashion brands", where: "US client", stack: ["Frontend"],
-    links: [["Website", "https://themodernmirror.com/home/"]] },
-  { name: "Chota", what: "Truck booking demo on seeded data. Its race test fires 25 bookings at once and never double-books any of 12 trucks", where: "Personal demo", stack: ["TypeScript", "PostgreSQL", "Redis", "Flutter"], links: [] },
-  { name: "Keyhold", what: "Local-first memory vault that AI assistants read through an MCP server I wrote in TypeScript", where: "Personal, private repo", stack: ["TypeScript", "MCP", "Embeddings", "Tauri"], links: [] },
+  { name: "Medbook", what: "Hospital and clinic software",
+    role: "Clinic scheduling APIs where a transaction stops 2 staff booking the same slot, raw SQL on PostgreSQL and MySQL, and a Swift and SwiftUI app", where: "Medbook Limited Kenya", dates: "May 2019 to Jun 2020",
+    tags: ["backend", "mobile"], stack: ["Swift", "SwiftUI", "Laravel", "PostgreSQL", "MySQL"], links: [["Medbook", "https://medbookafrica.com/"]], note: "The current product may postdate my time there." },
+  { name: "Chota", what: "Truck booking. A Flutter customer app from 2021, and a 2026 rebuild as a demo on seeded data",
+    role: "Built both. The rebuild's race test fires 25 bookings at once and never double-books any of 12 trucks", where: "Personal", dates: "2021, rebuilt 2026",
+    tags: ["mobile", "backend"], stack: ["Flutter", "TypeScript", "PostgreSQL", "Redis", "Docker"], links: [], note: "Demo on request." },
+  { name: "Keyhold", what: "Local-first, encrypted memory vault that AI assistants read through an MCP server",
+    role: "Wrote it in TypeScript and Node.js, with hybrid recall over local embeddings and an encrypted vector cache", where: "Personal", dates: "",
+    tags: ["ai", "backend"], stack: ["TypeScript", "Node.js", "MCP", "Embeddings"], links: [], note: "Private repo." },
+  { name: "Kotlin and KMP apps", what: "Personal Android and Kotlin Multiplatform apps",
+    role: "Experiments with GPS, Bluetooth LE, NFC and UWB on device", where: "Personal", dates: "",
+    tags: ["mobile"], stack: ["Kotlin", "Kotlin Multiplatform", "Jetpack Compose"], links: [], note: "Not published." },
 ];
+
+export const projectTags = { all: "All", mobile: "Mobile", backend: "Backend", frontend: "Frontend", sre: "SRE", ai: "AI" };
 
 export const skills = {
   Languages: ["TypeScript", "JavaScript", "Python", "Java", "Kotlin", "Swift", "Dart", "Go", "PHP", "SQL"],
@@ -149,6 +186,8 @@ export const faq = [
     a: "He's based in Nairobi (UTC+3) and has worked remotely with US, European and Gulf teams since 2021." },
   { q: "How do I contact him?", k: ["contact", "email", "phone", "hire", "reach", "linkedin"],
     a: "Email franklinmagoba4@gmail.com, call +254 725 254 911, or find him on LinkedIn at linkedin.com/in/franklin-magoba." },
+  { q: "What projects can I see?", k: ["projects", "portfolio", "links", "live", "apps"],
+    a: "Live ones include Sway, Alaan, DocSum, Theia, Betashares Direct, Productlane, AAR Insurance Kenya and Modern Mirror. The projects section has every link." },
   { q: "Where did he study?", k: ["education", "degree", "university", "study", "school"],
     a: "BSc Computer Science, Second Class Honours (Upper Division), Multimedia University of Kenya, 2019." },
 ];
@@ -157,7 +196,7 @@ export const faq = [
 export function buildChunks() {
   const out = faq.map((f) => ({ text: f.a, ref: f.q }));
   for (const e of experience) for (const p of e.points) out.push({ text: p, ref: `${e.role}, ${e.company} (${e.start} to ${e.end})` });
-  for (const p of projects) out.push({ text: `${p.name}: ${p.what}. Stack: ${p.stack.join(", ")}.`, ref: `${p.name} (${p.where})` });
+  for (const p of projects) out.push({ text: `${p.name}: ${p.what}. ${p.role}. Stack: ${p.stack.join(", ")}.`, ref: `${p.name} (${p.where})` });
   for (const [k, v] of Object.entries(skills)) out.push({ text: `${k}: ${v.join(", ")}.`, ref: "Skills" });
   return out;
 }

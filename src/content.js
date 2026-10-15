@@ -168,6 +168,20 @@ export const education = [
 
 export const certifications = ["Microsoft Azure Fundamentals", "ALC with Microsoft Azure training"];
 
+// Certificate images shown in the viewer. Titles and dates are copied from the certificates themselves.
+export const certificates = [
+  { file: "az900-exam-prep", title: "Exam Prep: Microsoft Azure Fundamentals (AZ-900)", issuer: "LinkedIn Learning", date: "Jun 2020" },
+  { file: "azure-administration-essential", title: "Azure Administration Essential Training", issuer: "LinkedIn Learning", date: "Jun 2020" },
+  { file: "azure-management-tools", title: "Learning Azure Management Tools", issuer: "LinkedIn Learning", date: "Jun 2020" },
+  { file: "azure-ad-basics", title: "Azure Active Directory: Basics", issuer: "LinkedIn Learning", date: "Jun 2020" },
+  { file: "azure-active-directory", title: "Microsoft Azure: Active Directory", issuer: "LinkedIn Learning", date: "Jun 2020" },
+  { file: "azure-security-concepts", title: "Microsoft Azure: Security Concepts", issuer: "LinkedIn Learning", date: "Jun 2020" },
+  { file: "microsoft-cloud-solution", title: "Planning a Microsoft Cloud Solution", issuer: "LinkedIn Learning", date: "Jun 2020" },
+  { file: "azure-storage", title: "Azure Administration: Implement and Manage Storage", issuer: "LinkedIn Learning", date: "Jun 2020" },
+  { file: "azure-subscriptions", title: "Azure Administration: Manage Subscriptions and Resources", issuer: "LinkedIn Learning", date: "Jul 2020" },
+  { file: "alc-badge", title: "Google Africa Developer Scholarship, Learning Phase I (32 hours)", issuer: "Andela, Pluralsight and Google", date: "" },
+];
+
 // Hand-written answers for the "Ask" box. Keywords are matched first.
 export const faq = [
   { q: "What does Franklin do now?", k: ["now", "current", "role", "job", "doing", "today"],

@@ -32,3 +32,20 @@ h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;color:var(--acc
 }
 .pj p{margin:.15rem 0}.where{font-weight:400;color:var(--muted);font-size:.85rem}
 @media print{.pj .type a{color:inherit}.pnote{display:none}.pj{margin-bottom:.3rem}.pj p{margin:0}}
+
+:root{--cert-bg:var(--paper);--cert-line:var(--line);--cert-text:var(--ink);--cert-accent:var(--accent)}
+.cert-grid{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.75rem}
+.cert-thumb{display:flex;flex-direction:column;gap:.4rem;width:100%;height:100%;padding:.5rem;border-radius:10px;border:1px solid var(--cert-line);background:var(--cert-bg);color:var(--cert-text);font:500 .8rem/1.35 var(--sans);text-align:left;cursor:pointer;transition:border-color .15s,transform .15s}
+.cert-thumb:hover,.cert-thumb:focus-visible{border-color:var(--cert-accent);transform:translateY(-2px)}
+.cert-thumb img{width:100%;height:auto;aspect-ratio:480/371;object-fit:contain;background:#fff;border-radius:6px}
+.cert-modal{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:1rem;background:rgba(2,6,23,.85);backdrop-filter:blur(4px)}
+.cert-modal[hidden]{display:none}
+.cert-box{position:relative;max-width:min(960px,100%);width:100%;background:#0b1222;border:1px solid #1e293b;border-radius:12px;padding:2.5rem 1rem 1rem;color:#e2e8f0}
+.cert-box figure{margin:0}.cert-box img{display:block;width:100%;max-height:72vh;object-fit:contain;background:#fff;border-radius:8px}
+.cert-box figcaption{margin-top:.6rem;font:500 .9rem var(--sans);text-align:center}
+.cert-close{position:absolute;top:.4rem;right:.5rem;font-size:1.6rem;line-height:1}
+.cert-close,.cert-nav button{background:none;border:1px solid #334155;color:#e2e8f0;border-radius:8px;padding:.2rem .7rem;cursor:pointer}
+.cert-close:hover,.cert-nav button:hover{border-color:#2dd4bf;color:#2dd4bf}
+.cert-nav{display:flex;justify-content:center;align-items:center;gap:1rem;margin-top:.6rem;font:600 .85rem var(--mono)}
+@media (prefers-reduced-motion:reduce){.cert-thumb{transition:none}.cert-thumb:hover{transform:none}}
+@media print{#cert-viewer,.cert-modal{display:none!important}}

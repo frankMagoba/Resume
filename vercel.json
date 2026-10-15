@@ -3,6 +3,14 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/Resume/:path*", "destination": "/:path*" }
-  ]
+    {
+      "source": "/Resume/:path*",
+      "destination": "/:path*"
+    }
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "gh-pages": false
+    }
+  }
 }

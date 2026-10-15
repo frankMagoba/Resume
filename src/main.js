@@ -1,5 +1,6 @@
 import "./style.css";
-import { answer, loadSemantic, fallback } from "./ask.js";
+import "./askterm.css";
+import { mountAskTerminal, askOnly } from "./askterm.js";
 
 const $ = (s) => document.querySelector(s);
 const el = (tag, attrs = {}, ...kids) => {
@@ -10,7 +11,7 @@ const el = (tag, attrs = {}, ...kids) => {
 };
 
 // Highlight chips: dim jobs that don't match the chosen area.
-const areas = { all: "All", backend: "Backend", frontend: "Frontend", mobile: "Mobile", sre: "SRE", ai: "AI eval" };
+const areas = { all: "All", backend: "Backend", frontend: "Frontend", mobile: "Mobile", sre: "SRE", ai: "AI" };
 const chips = $("#chips");
 for (const [key, label] of Object.entries(areas)) {
   const b = el("button", { type: "button", class: "chip", "aria-pressed": String(key === "all"), "data-k": key }, label);
@@ -23,13 +24,8 @@ for (const [key, label] of Object.entries(areas)) {
 
 $("#print").addEventListener("click", () => window.print());
 
-$("#ask-form").addEventListener("submit", async (ev) => {
-  ev.preventDefault();
-  const r = await answer($("#ask-input").value.trim());
-  $("#ask-out").replaceChildren(r ? el("p", {}, r.text, el("span", { class: "ref" }, `From: ${r.ref}`)) : el("p", {}, fallback));
-});
-$("#ask-smart").addEventListener("click", async (ev) => {
-  ev.target.disabled = true;
-  try { await loadSemantic((s) => ($("#ask-status").textContent = s)); }
-  catch { $("#ask-status").textContent = "Couldn't load the model, so keyword search stays on."; ev.target.disabled = false; }
+mountAskTerminal($("#askterm"), {
+  run: askOnly,
+  title: "ask-franklin --resume",
+  suggestions: ["has he done SRE work?", "what backend stack does he use?", "does he build mobile apps?", "what AI work has he done?", "how do I contact him?"],
 });

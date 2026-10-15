@@ -12,7 +12,12 @@ export function renderResume() {
         <p class="type">${esc(e.type)}</p>
         <ul>${e.points.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>
       </article>`).join("");
-  const proj = projects.map((p) => `<li><strong>${esc(p.name)}</strong> (${esc(p.where)}): ${esc(p.what)}.${p.links.length ? ` <a href="${p.links[0][1]}">${short(p.links[0][1])}</a>` : ""}</li>`).join("");
+  const proj = projects.map((p) => `
+      <article class="job pj" data-tags="${p.tags.join(" ")}">
+        <div class="job-head"><h3>${esc(p.name)} <span class="where">${esc(p.where)}</span></h3><span class="dates">${esc(p.dates)}</span></div>
+        <p>${esc(p.what)}. ${esc(p.role)}.${p.note ? ` <span class="type pnote">${esc(p.note)}</span>` : ""}</p>
+        <p class="type">${esc(p.stack.join(", "))}${p.links.length ? " · " + p.links.map(([l, h]) => `<a href="${h}">${esc(l === "Website" || l === "MenoLabs" || l === "Optibus" || l === "Medbook" ? short(h) : l)}</a>`).join(" · ") : ""}</p>
+      </article>`).join("");
   const sk = Object.entries(skills).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v.join(", "))}</dd>`).join("");
   const edu = [...education.map((e) => `${e.degree}, ${e.school}, ${e.start} to ${e.end}`), ...certifications].map((x) => `<li>${esc(x)}</li>`).join("");
   return { summary: esc(profile.intro), jobs, proj, sk, edu };

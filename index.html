@@ -29,7 +29,7 @@
   <a class="skip" href="#main">Skip to content</a>
   <div class="toolbar no-print" role="toolbar" aria-label="Resume tools">
     <a href="https://frankmagoba.github.io/">← Portfolio</a>
-    <div class="chips" id="chips" role="group" aria-label="Highlight experience by area"></div>
+    <div class="chips" id="chips" role="group" aria-label="Highlight experience and projects by area"></div>
     <a class="btn" href="/Resume/resume.pdf" download>Download PDF</a>
     <button class="btn ghost" id="print" type="button">Print</button>
   </div>
@@ -47,17 +47,14 @@
     </header>
     <section aria-labelledby="s-sum"><h2 id="s-sum">Summary</h2><p id="summary"><!--summary--></p></section>
     <section aria-labelledby="s-exp"><h2 id="s-exp">Experience</h2><div id="exp"><!--jobs--></div></section>
-    <section aria-labelledby="s-proj"><h2 id="s-proj">Projects</h2><ul id="proj" class="proj"><!--projects--></ul></section>
+    <section aria-labelledby="s-proj"><h2 id="s-proj">Projects</h2><div id="proj"><!--projects--></div></section>
     <section aria-labelledby="s-skills"><h2 id="s-skills">Skills</h2><dl id="skills" class="skills"><!--skills--></dl></section>
     <section aria-labelledby="s-edu"><h2 id="s-edu">Education and certifications</h2><ul id="edu"><!--edu--></ul></section>
   </main>
-  <aside class="ask no-print" aria-labelledby="ask-title">
+  <section class="ask no-print" aria-labelledby="ask-title">
     <h2 id="ask-title">Ask about Franklin</h2>
-    <form id="ask-form"><label for="ask-input" class="sr">Your question</label>
-      <input id="ask-input" placeholder="What backend stack does he use?" autocomplete="off" required><button class="btn" type="submit">Ask</button></form>
-    <div id="ask-out" aria-live="polite"></div>
-    <p class="small"><button id="ask-smart" class="link" type="button">Turn on smart search</button> <span id="ask-status"></span></p>
-  </aside>
+    <div id="askterm"></div>
+  </section>
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>

@@ -1,8 +1,6 @@
 import "./style.css";
 import "./askterm.css";
 import { mountAskTerminal, askOnly } from "./askterm.js";
-import { mountCertViewer } from "./certviewer.js";
-import { certificates } from "./content.js";
 
 const $ = (s) => document.querySelector(s);
 const el = (tag, attrs = {}, ...kids) => {
@@ -32,4 +30,3 @@ mountAskTerminal($("#askterm"), {
   suggestions: ["has he done SRE work?", "what backend stack does he use?", "does he build mobile apps?", "what AI work has he done?", "how do I contact him?"],
 });
 
-mountCertViewer($("#cert-viewer"), certificates, `${import.meta.env.BASE_URL}certs/`);

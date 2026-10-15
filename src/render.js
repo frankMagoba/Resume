@@ -1,6 +1,6 @@
 // Builds the resume markup from content.js. Vite runs this at build time,
 // so the page arrives fully rendered and nothing shifts once the JS loads.
-import { profile, experience, projects, skills, education, certifications } from "./content.js";
+import { profile, experience, projects, skills, education } from "./content.js";
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const short = (u) => u.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
@@ -25,6 +25,6 @@ export function renderResume() {
       </article>`;
   }).join("");
   const sk = Object.entries(skills).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v.join(", "))}</dd>`).join("");
-  const edu = [...education.map((e) => `${e.degree}, ${e.school}, ${e.start} to ${e.end}`), ...certifications].map((x) => `<li>${esc(x)}</li>`).join("");
+  const edu = [...education.map((e) => `${e.degree}, ${e.school}, ${e.start} to ${e.end}`)].map((x) => `<li>${esc(x)}</li>`).join("");
   return { summary: esc(profile.intro), jobs, proj, sk, edu };
 }

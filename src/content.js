@@ -14,7 +14,7 @@ export const profile = {
     resume: "https://frankmagoba.github.io/Resume/",
   },
   intro:
-    "I run delivery for client pods at GitStart and still write and review TypeScript and Python most weeks. I've shipped production software since 2019: clinic booking APIs, insurance services, bank-feed workers, transit integrations and mobile apps. Part-time, I write coding tasks for AI agents at AfterQuery and check whether their fixes hold up.",
+    "Full-stack engineer with 7 years of production experience across web, mobile and backend. I build TypeScript and Python services, React and React Native apps, and the cloud setup that keeps them running. I've shipped clinic booking APIs, insurance platforms, bank-feed workers, transit integrations and mobile apps used every day, and I've led small teams from spec to release.",
   tagline: "Backend, full-stack and SRE work on Node.js, Python and AWS.",
 };
 

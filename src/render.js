@@ -14,14 +14,16 @@ export function renderResume() {
       </article>`).join("");
   const linkLabel = (l, h) => (l === "Website" || l === "MenoLabs" || l === "Optibus" || l === "Medbook") ? short(h) : l;
   const linkHtml = (links) => (links || []).filter(([, h]) => h).map(([l, h]) =>
-    `<a class="plink" href="${esc(h)}" target="_blank" rel="noopener noreferrer">${esc(linkLabel(l, h))}</a>`).join('<span class="psep" aria-hidden="true">·</span>');
+    `<a class="plink" href="${esc(h)}" target="_blank" rel="noopener noreferrer">${esc(linkLabel(l, h))}</a>`).join("");
   const proj = projects.map((p) => {
     const links = linkHtml(p.links);
     return `
       <article class="job pj" data-tags="${p.tags.join(" ")}">
         <div class="job-head"><h3>${esc(p.name)} <span class="where">${esc(p.where)}</span></h3><span class="dates">${esc(p.dates)}</span></div>
-        <p>${esc(p.what)}. ${esc(p.role)}.${p.note ? ` <span class="type pnote">${esc(p.note)}</span>` : ""}</p>
-        <p class="type">${esc(p.stack.join(", "))}${links ? ` <span class="psep" aria-hidden="true">·</span> <span class="plinks">${links}</span>` : ""}</p>
+        <p class="pwhat">${esc(p.what)}.</p>
+        <p class="pwork">${esc(p.role)}.${p.note ? ` <span class="type pnote">${esc(p.note)}</span>` : ""}</p>
+        <p class="type">${esc(p.stack.join(", "))}</p>
+        ${links ? `<p class="plinks">${links}</p>` : ""}
       </article>`;
   }).join("");
   const sk = Object.entries(skills).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v.join(", "))}</dd>`).join("");

@@ -12,7 +12,12 @@ a{color:var(--accent)}:focus-visible{outline:2px solid #2dd4bf;outline-offset:2p
 .btn.ghost{background:none;color:#2dd4bf}
 button.link{background:none;border:0;padding:0;color:#5eead4;text-decoration:underline;font:inherit;cursor:pointer}
 .page{max-width:820px;margin:2rem auto;background:var(--paper);padding:3rem clamp(1.25rem,5vw,3.5rem);border-radius:6px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
-.head h1{margin:0;font-size:2.2rem;letter-spacing:-.01em}.role{margin:.15rem 0;color:var(--accent);font-weight:600}.contact{margin:.25rem 0 0;font-size:.85rem;color:var(--muted)}
+.head h1{margin:0;font-size:2.2rem;letter-spacing:-.01em}.role{margin:.15rem 0;color:var(--accent);font-weight:600}
+.contact{list-style:none;margin:.55rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem .15rem;font-size:.85rem}
+.contact li{display:inline-flex;align-items:center}
+.contact li:not(:last-child)::after{content:"";display:inline-block;width:1px;height:.85em;margin:0 .7rem;background:var(--line);vertical-align:middle}
+.contact a{color:var(--muted);text-decoration:none;font-weight:500}
+.contact a:hover{color:var(--accent)}
 h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);border-bottom:1px solid var(--line);padding-bottom:.3rem;margin:1.75rem 0 .75rem}
 .job{margin-bottom:1.1rem;transition:opacity .2s}.job.dim{opacity:.3}
 .job-head{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}.job h3{margin:0;font-size:1rem}
@@ -31,11 +36,12 @@ h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;color:var(--acc
   a{color:inherit;text-decoration:none}.job{break-inside:avoid}h2{break-after:avoid}
 }
 .pj p{margin:.15rem 0}.where{font-weight:400;color:var(--muted);font-size:.85rem}
-.pj .plinks{display:inline;margin-left:.15rem}
-.pj .psep{margin:0 .4rem;color:var(--line);user-select:none}
-.pj a.plink{color:var(--accent);font-weight:600;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--accent) 45%,transparent);text-underline-offset:2px;text-decoration-thickness:1px}
-.pj a.plink:hover{text-decoration-thickness:2px;text-decoration-color:var(--accent)}
-@media print{.pj .type a,.pj a.plink{color:inherit;text-decoration:none;font-weight:inherit}.pj .psep{color:inherit}.pnote{display:none}.pj{margin-bottom:.3rem}.pj p{margin:0}}
+.pj .pwhat{margin:.2rem 0 .1rem}
+.pj .pwork{margin:0 0 .15rem;padding-left:.55rem;border-left:2px solid color-mix(in srgb,var(--accent) 40%,var(--line));color:var(--muted);font-size:.9rem}
+.pj .plinks{display:flex;flex-wrap:wrap;gap:.35rem;margin:.35rem 0 0}
+.pj a.plink{display:inline-flex;align-items:center;padding:.15rem .55rem;border-radius:999px;border:1px solid color-mix(in srgb,var(--accent) 35%,var(--line));background:color-mix(in srgb,var(--accent) 6%,transparent);color:var(--accent);font:600 .75rem var(--mono);text-decoration:none}
+.pj a.plink:hover{background:color-mix(in srgb,var(--accent) 14%,transparent);border-color:var(--accent)}
+@media print{.pj .plinks,.pj a.plink{display:none}.pnote{display:none}.pj{margin-bottom:.3rem}.pj p{margin:0}.pj .pwork{border:0;padding:0;color:inherit}.contact li:not(:last-child)::after{background:#ccc}.contact a{color:inherit}}
 
 :root{--cert-bg:var(--paper);--cert-line:var(--line);--cert-text:var(--ink);--cert-accent:var(--accent)}
 .cert-grid{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.75rem}

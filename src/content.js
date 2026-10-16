@@ -194,35 +194,53 @@ export const certificates = [
   { file: "alc-badge", title: "Google Africa Developer Scholarship, Learning Phase I (32 hours)", issuer: "Andela, Pluralsight and Google", date: "" },
 ];
 
-// Hand-written answers for the "Ask" box. Keywords are matched first.
+// FAQ shortcuts for common questions. Answers are written from the fields above
+// so they stay aligned with the resume and portfolio copy.
+const liveProjects = projects.filter((p) => (p.links || []).some(([, h]) => h));
+const openSource = projects.filter((p) => /open source/i.test(p.name));
+
 export const faq = [
-  { q: "What does Franklin do now?", k: ["now", "current", "role", "job", "doing", "today"],
-    a: "He's a Technical Project Manager at GitStart and still writes and reviews code most weeks. Part-time, he writes AI coding-eval tasks at AfterQuery." },
-  { q: "How many years of experience?", k: ["years", "experience", "long", "senior"],
-    a: "He has shipped production software since May 2019, so about 7 years." },
-  { q: "Has he done SRE or DevOps?", k: ["sre", "devops", "kubernetes", "k8s", "terraform", "reliability", "monitoring", "on-call", "slo"],
-    a: "Yes. At Bright Coders Factory he ran services on Kubernetes with Terraform, set SLOs and led postmortems. At GitStart he does the SRE work on the Optibus integrations with CloudWatch and Grafana." },
-  { q: "What backend stack does he use?", k: ["backend", "node", "nestjs", "python", "fastapi", "api", "stack"],
-    a: "Mostly Node.js/NestJS and Python/FastAPI on PostgreSQL and Redis, with queues like AWS SQS and RabbitMQ. He has also worked in Spring Boot and Laravel." },
-  { q: "Does he build mobile apps?", k: ["mobile", "flutter", "react native", "android", "ios", "app"],
-    a: "Yes. He built the AAR Insurance Kenya app in Flutter at Startappz, React Native screens for Theia Pay and MenoLife, and did frontend and mobile work on Betashares Direct." },
-  { q: "What AI work has he done?", k: ["ai", "llm", "rag", "agent", "eval", "mcp", "ml"],
-    a: "He writes coding tasks and gold tests for AI agents at AfterQuery, shipped RAG search on pgvector for DocSum, and built Keyhold, an MCP memory vault, as a personal project." },
-  { q: "Is he open to remote work?", k: ["remote", "relocate", "timezone", "location", "where"],
-    a: "He's based in Nairobi (UTC+3) and has worked remotely with US, European and Gulf teams since 2021." },
-  { q: "How do I contact him?", k: ["contact", "email", "phone", "hire", "reach", "linkedin"],
-    a: "Email franklinmagoba4@gmail.com, call +254 725 254 911, or find him on LinkedIn at linkedin.com/in/franklin-magoba." },
-  { q: "What projects can I see?", k: ["projects", "portfolio", "links", "live", "apps"],
-    a: "Live ones include Sway, Alaan, DocSum, Theia, Betashares Direct, Productlane, AAR Insurance Kenya and Modern Mirror. The projects section has every link." },
-  { q: "Where did he study?", k: ["education", "degree", "university", "study", "school"],
-    a: "BSc Computer Science, Second Class Honours (Upper Division), Multimedia University of Kenya, 2019." },
+  { q: "What does Franklin do now?", k: ["now", "current", "role", "job", "doing", "today", "present"],
+    a: "Technical Project Manager at GitStart (YC S19) since Jan 2023, still shipping and reviewing code (Optibus integrations, Alaan, DocSum, Ready Travel delivery). Part-time Coding Evaluation Contractor at AfterQuery since Aug 2025, writing Harbor tasks that AI agents must solve." },
+  { q: "How many years of experience?", k: ["years", "experience", "long", "senior", "since"],
+    a: profile.intro.split(". ")[0] + ". Production work starts May 2019 at Medbook Limited Kenya." },
+  { q: "Has he done SRE or DevOps?", k: ["sre", "devops", "kubernetes", "k8s", "terraform", "reliability", "monitoring", "on-call", "slo", "grafana", "cloudwatch"],
+    a: "Yes. At Bright Coders Factory (Mar 2022 to Aug 2023) he ran client services on Kubernetes, managed infrastructure in Terraform, set SLOs/SLIs and error budgets on AWS, led postmortems and set up CloudWatch. At GitStart he does the SRE work on the Optibus operator integrations with CloudWatch and Grafana." },
+  { q: "What backend stack does he use?", k: ["backend", "node", "nestjs", "python", "fastapi", "api", "stack", "typescript"],
+    a: `From the skills list: ${skills.Backend.join(", ")}. Data: ${skills.Data.join(", ")}. Day-to-day examples on the site include NestJS/SQS (Alaan), FastAPI/pgvector/RabbitMQ (DocSum), and Python on AWS Lambda (Optibus).` },
+  { q: "Does he build mobile apps?", k: ["mobile", "flutter", "react native", "android", "ios", "kmp"],
+    a: "Yes. AAR Insurance Kenya in Flutter (Startappz); React Native for Theia Pay and MenoLife; frontend and mobile on Betashares Direct; tech lead on Ready Travel including React Native; plus personal Flutter (Chota) and Kotlin/KMP experiments." },
+  { q: "What AI work has he done?", k: ["ai", "llm", "rag", "agent", "eval", "mcp", "ml", "openai", "pgvector"],
+    a: "AfterQuery: Harbor coding tasks and gold tests for agent evaluation (Python, TypeScript, Kotlin, Swift, Rust, C++, Docker). DocSum: FastAPI contract-review APIs with pgvector search feeding OpenAI (RAG), parse jobs on RabbitMQ. Keyhold: personal local-first MCP memory vault in TypeScript/Node.js." },
+  { q: "Is he open to remote work?", k: ["remote", "relocate", "timezone", "nairobi"],
+    a: `Based in ${profile.location}. Recent remote roles include GitStart, AfterQuery, Bright Coders Factory (Poland) and Modern Mirror (US client).` },
+  { q: "How do I contact him?", k: ["contact", "email", "phone", "hire", "reach", "linkedin", "github"],
+    a: `Email ${profile.email}, call ${profile.phone}, LinkedIn ${profile.links.linkedin}, GitHub ${profile.links.github}, resume ${profile.links.resume}.` },
+  { q: "What projects can I see?", k: ["projects", "portfolio", "links", "live", "public"],
+    a: `Public product links on the site: ${liveProjects.map((p) => p.name.replace(/ \(open source\)/, "")).join(", ")}. Open-source PRs: ${openSource.map((p) => p.name.replace(/ \(open source\)/, "")).join(", ")}. Full list is in the Projects section.` },
+  { q: "Where did he study?", k: ["education", "degree", "university", "study", "school", "multimedia"],
+    a: education.map((e) => `${e.degree}, ${e.school}, ${e.start} to ${e.end}`).join("; ") + "." },
 ];
 
-// Flat list of facts used by keyword and semantic search.
+export function projectBlurb(p) {
+  const links = (p.links || []).filter(([, h]) => h).map(([l, h]) => `${l}: ${h}`).join(" · ");
+  return [`${p.name} (${p.where}${p.dates ? `, ${p.dates}` : ""})`, p.what + ".", p.role + ".", `Stack: ${p.stack.join(", ")}.`, links, p.note].filter(Boolean).join(" ");
+}
+
+// Search corpus: only text that already appears in profile / experience / projects / skills.
+// FAQ answers are matched separately in ask.js so paraphrases don't compete with source facts.
 export function buildChunks() {
-  const out = faq.map((f) => ({ text: f.a, ref: f.q }));
-  for (const e of experience) for (const p of e.points) out.push({ text: p, ref: `${e.role}, ${e.company} (${e.start} to ${e.end})` });
-  for (const p of projects) out.push({ text: `${p.name}: ${p.what}. ${p.role}. Stack: ${p.stack.join(", ")}.`, ref: `${p.name} (${p.where})` });
+  const out = [];
+  out.push({ text: `${profile.name}, ${profile.title}, ${profile.location}. ${profile.intro}`, ref: "About" });
+  out.push({ text: profile.tagline, ref: "About" });
+  for (const e of experience) {
+    const ref = `${e.role}, ${e.company} (${e.start} to ${e.end})`;
+    out.push({ text: `${e.role} at ${e.company}, ${e.type}, ${e.start} to ${e.end}.`, ref });
+    for (const p of e.points) out.push({ text: p, ref });
+  }
+  for (const p of projects) out.push({ text: projectBlurb(p), ref: `${p.name} (${p.where})` });
   for (const [k, v] of Object.entries(skills)) out.push({ text: `${k}: ${v.join(", ")}.`, ref: "Skills" });
+  for (const e of education) out.push({ text: `${e.degree}, ${e.school}, ${e.start} to ${e.end}.`, ref: "Education" });
+  out.push({ text: `Certifications: ${certifications.join(", ")}.`, ref: "Certifications" });
   return out;
 }

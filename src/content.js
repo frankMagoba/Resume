@@ -201,6 +201,8 @@ const liveProjects = projects.filter((p) => (p.links || []).some(([, h]) => h));
 const openSource = projects.filter((p) => /open source/i.test(p.name));
 
 export const faq = [
+  { q: "Who is Franklin?", k: ["who", "about", "intro", "introduce", "bio", "himself"],
+    a: `${profile.name}, ${profile.title}, ${profile.location}. ${profile.tagline} ${profile.intro}` },
   { q: "What does Franklin do now?", k: ["now", "current", "role", "job", "doing", "today", "present"],
     a: "Technical Project Manager at GitStart (YC S19) since Jan 2023, still shipping and reviewing code (Optibus integrations, Alaan, DocSum, Ready Travel delivery). Part-time Coding Evaluation Contractor at AfterQuery since Aug 2025, writing Harbor tasks that AI agents must solve." },
   { q: "How many years of experience?", k: ["years", "experience", "long", "senior", "since"],

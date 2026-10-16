@@ -1,6 +1,4 @@
 import "./style.css";
-import "./askterm.css";
-import { mountAskTerminal, askOnly } from "./askterm.js";
 
 const $ = (s) => document.querySelector(s);
 const el = (tag, attrs = {}, ...kids) => {
@@ -23,10 +21,3 @@ for (const [key, label] of Object.entries(areas)) {
 }
 
 $("#print").addEventListener("click", () => window.print());
-
-mountAskTerminal($("#askterm"), {
-  run: askOnly,
-  title: "ask-franklin --resume",
-  suggestions: ["has he done SRE work?", "what backend stack does he use?", "does he build mobile apps?", "what AI work has he done?", "how do I contact him?"],
-});
-

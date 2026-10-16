@@ -2,7 +2,7 @@
 
 My resume, live at https://frankmagoba.github.io/Resume/.
 
-It's a static Vite site with no framework. `src/content.js` holds every fact, and the portfolio repo uses a copy of the same file. The page renders from it, along with the area chips and the "Ask about Franklin" box, which matches questions by keyword first. Smart search is optional: it loads a small embedding model with transformers.js in the browser and only ever quotes the content.
+It's a static Vite site with no framework. `src/content.js` holds every fact, and the portfolio repo uses a copy of the same file. The page renders from it, along with the area chips. Interactive ask/terminal lives on the portfolio only.
 
 ## Develop
 

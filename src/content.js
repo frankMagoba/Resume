@@ -14,7 +14,7 @@ export const profile = {
     resume: "https://frankmagoba.github.io/Resume/",
   },
   // Single public-facing title line — keep this the only headline under the name.
-  tagline: "Software engineer in Nairobi. Backend, full-stack and SRE work on Node.js, Python and AWS.",
+  tagline: "Software engineer in Nairobi. Works remotely with US and European timezones.",
   intro:
     "Full-stack engineer with 7 years of production experience across web, mobile and backend. I build TypeScript and Python services, React and React Native apps, and the cloud setup that keeps them running. I've shipped clinic booking APIs, insurance platforms, bank-feed workers, transit integrations and mobile apps used every day, and I've led small teams from spec to release.",
 };
@@ -213,8 +213,8 @@ export const faq = [
     a: "Yes. AAR Insurance Kenya in Flutter (Startappz); React Native for Theia Pay and MenoLife; frontend and mobile on Betashares Direct; tech lead on Ready Travel including React Native; plus personal Flutter (Chota) and Kotlin/KMP experiments." },
   { q: "What AI work has he done?", k: ["ai", "llm", "rag", "agent", "eval", "mcp", "ml", "openai", "pgvector"],
     a: "AfterQuery: Harbor coding tasks and gold tests for agent evaluation (Python, TypeScript, Kotlin, Swift, Rust, C++, Docker). DocSum: FastAPI contract-review APIs with pgvector search feeding OpenAI (RAG), parse jobs on RabbitMQ. Keyhold: personal local-first MCP memory vault in TypeScript/Node.js." },
-  { q: "Is he open to remote work?", k: ["remote", "relocate", "timezone", "nairobi"],
-    a: `Based in ${profile.location}. Recent remote roles include GitStart, AfterQuery, Bright Coders Factory (Poland) and Modern Mirror (US client).` },
+  { q: "Is he open to remote work?", k: ["remote", "relocate", "timezone", "nairobi", "us", "europe", "european"],
+    a: profile.tagline + ` Recent remote roles include GitStart, AfterQuery, Bright Coders Factory (Poland) and Modern Mirror (US client).` },
   { q: "How do I contact him?", k: ["contact", "email", "phone", "hire", "reach", "linkedin", "github"],
     a: `Email ${profile.email}, call ${profile.phone}, LinkedIn ${profile.links.linkedin}, GitHub ${profile.links.github}, resume ${profile.links.resume}.` },
   { q: "What projects can I see?", k: ["projects", "portfolio", "links", "live", "public"],

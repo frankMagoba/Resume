@@ -13,9 +13,10 @@ export const profile = {
     portfolio: "https://frankmagoba.github.io/",
     resume: "https://frankmagoba.github.io/Resume/",
   },
+  // Single public-facing title line — keep this the only headline under the name.
+  tagline: "Software engineer in Nairobi. Backend, full-stack and SRE work on Node.js, Python and AWS.",
   intro:
     "Full-stack engineer with 7 years of production experience across web, mobile and backend. I build TypeScript and Python services, React and React Native apps, and the cloud setup that keeps them running. I've shipped clinic booking APIs, insurance platforms, bank-feed workers, transit integrations and mobile apps used every day, and I've led small teams from spec to release.",
-  tagline: "Backend, full-stack and SRE work on Node.js, Python and AWS.",
 };
 
 export const experience = [

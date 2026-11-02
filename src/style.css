@@ -48,12 +48,27 @@ h2{font:600 .78rem/1.2 var(--text-font);text-transform:uppercase;letter-spacing:
 .cert-thumb img{width:100%;height:auto;aspect-ratio:480/371;object-fit:contain;background:#fff;border-radius:6px}
 .cert-modal{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:1rem;background:rgba(2,6,23,.85);backdrop-filter:blur(4px)}
 .cert-modal[hidden]{display:none}
-.cert-box{position:relative;max-width:min(960px,100%);width:100%;background:#0b1222;border:1px solid #1e293b;border-radius:12px;padding:2.5rem 1rem 1rem;color:#e2e8f0}
-.cert-box figure{margin:0}.cert-box img{display:block;width:100%;max-height:72vh;object-fit:contain;background:#fff;border-radius:8px}
+.cert-box{position:relative;display:flex;flex-direction:column;max-width:min(960px,100%);width:100%;max-height:calc(100vh - 2rem);background:#1e1e1f;border:1px solid rgba(255,255,255,.12);border-radius:12px;overflow:hidden;color:#e9ecea;box-shadow:0 30px 80px rgba(0,0,0,.55),0 0 0 .5px rgba(0,0,0,.8)}
+.cert-box.zoom{max-width:100%;height:calc(100vh - 2rem)}
+/* macOS title bar: traffic lights on the left (glyphs show on hover or keyboard focus), file name centred */
+.cert-bar{position:relative;display:flex;align-items:center;justify-content:center;flex:none;height:38px;padding:0 12px;background:linear-gradient(#2d2d2f,#262628);border-bottom:1px solid rgba(0,0,0,.6);font:500 13px/1 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",sans-serif;color:#a1a1a6}
+.cert-lights{position:absolute;left:12px;top:50%;transform:translateY(-50%);display:flex;gap:8px}
+.cert-lights button{position:relative;width:12px;height:12px;padding:0;border-radius:50%;border:.5px solid rgba(0,0,0,.25);display:grid;place-items:center;cursor:pointer}
+.cert-lights button::after{content:"";position:absolute;inset:-5px}
+.cert-close{background:#ff5f57}.cert-min{background:#febc2e}.cert-zoom{background:#28c840}
+.cert-lights svg{width:8px;height:8px;fill:none;stroke:rgba(0,0,0,.6);stroke-width:1.6;stroke-linecap:round;opacity:0;transition:opacity .12s}
+.cert-lights svg .fill{fill:rgba(0,0,0,.6);stroke:none}
+.cert-lights:hover svg,.cert-lights:has(:focus-visible) svg{opacity:1}
+.cert-lights button:active{filter:brightness(.85)}
+.cert-lights button:focus-visible{outline:2px solid #2dd4bf;outline-offset:2px}
+.cert-file{max-width:calc(100% - 150px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cert-box figure{display:flex;flex-direction:column;flex:1;min-height:0;margin:0;padding:1rem 1rem 0}
+.cert-box img{display:block;width:100%;max-height:68vh;object-fit:contain;background:#fff;border-radius:6px}
+.cert-box.zoom img{flex:1;min-height:0;max-height:none}
 .cert-box figcaption{margin-top:.6rem;font:400 .9rem var(--text-font);text-align:center}
-.cert-close{position:absolute;top:.4rem;right:.5rem;font-size:1.6rem;line-height:1}
-.cert-close,.cert-nav button{background:none;border:1px solid #334155;color:#e2e8f0;border-radius:8px;padding:.2rem .7rem;cursor:pointer}
-.cert-close:hover,.cert-nav button:hover{border-color:#2dd4bf;color:#2dd4bf}
+.cert-box .cert-nav{padding-bottom:1rem}
+.cert-nav button{background:none;border:1px solid #343c41;color:#e9ecea;border-radius:8px;padding:.2rem .7rem;cursor:pointer}
+.cert-nav button:hover{border-color:#2dd4bf;color:#2dd4bf}
 .cert-nav{display:flex;justify-content:center;align-items:center;gap:1rem;margin-top:.6rem;font:600 .85rem var(--mono)}
 @media (prefers-reduced-motion:reduce){.cert-thumb{transition:none}.cert-thumb:hover{transform:none}}
 @media print{#cert-viewer,.cert-modal{display:none!important}}

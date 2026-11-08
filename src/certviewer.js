@@ -43,6 +43,7 @@ export function mountCertViewer(root, certs, base) {
     const c = certs[cur];
     img.src = src(c);
     img.alt = `Certificate: ${c.title}`;
+    img.style.background = c.bg || ""; // dark certificates get a dark frame instead of the default white
     cap.textContent = label(c);
     file.textContent = `${c.file}.webp`;
     count.textContent = `${cur + 1} / ${certs.length}`;
